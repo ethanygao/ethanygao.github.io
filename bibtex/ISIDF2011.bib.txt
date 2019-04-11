@@ -1,0 +1,8 @@
+@inproceedings{yang2011algorithm,
+  title={An algorithm for remote sensing image mosaic based on valid area},
+  author={Yang, Yi and Gao, Yuan and Li, Haitao and Han, Yanshun},
+  booktitle={Image and Data Fusion (ISIDF), 2011 International Symposium on},
+  pages={1--4},
+  year={2011},
+  organization={IEEE}
+}

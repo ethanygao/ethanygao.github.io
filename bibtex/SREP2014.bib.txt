@@ -1,0 +1,10 @@
+@article{gao2014naming,
+  title={Naming game on networks: let everyone be both speaker and hearer},
+  author={Gao, Yuan and Chen, Guanrong and Chan, Rosa H. M.},
+  journal={Scientific Reports},
+  volume={4},
+  number={6149},
+  pages={1--9},
+  year={2014},
+  publisher={Nature Publishing Group}
+}

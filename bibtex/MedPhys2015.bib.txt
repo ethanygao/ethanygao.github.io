@@ -1,0 +1,10 @@
+@article{chen2015framework,
+  title={A framework for quantification and visualization of segmentation accuracy and variability in 3D lateral ventricle ultrasound images of preterm neonates},
+  author={Chen, Yimin and Qiu, Wu and Kishimoto, Jessica and Gao, Yuan and Chan, Rosa HM and Ribaupierre, Sandrine and Fenster, Aaron and Chiu, Bernard},
+  journal={Medical physics},
+  volume={42},
+  number={11},
+  pages={6387--6405},
+  year={2015},
+  publisher={Wiley Online Library}
+}

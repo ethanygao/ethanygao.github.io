@@ -1,0 +1,8 @@
+@inproceedings{li2016sparse,
+  title={Sparse Unmixing of Hyperspectral Data based on Robust Linear Mixing Model},
+  author={Li, Chang and Ma, Yong and Gao, Yuan and Wang, Zhongyuan and Ma, Jiayi},
+  booktitle={Visual Communications and Image Processing (VCIP), 2016},
+  pages={1--4},
+  year={2016},
+  organization={IEEE}
+}

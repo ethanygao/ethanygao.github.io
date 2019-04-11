@@ -1,0 +1,9 @@
+@article{hou2017inactivation,
+  title={Inactivation of KCNQ1 potassium channels reveals dynamic coupling between voltage sensing and pore opening},
+  author={Panpan Hou and Jodene Eldstrom and Jingyi Shi and Ling Zhong and Kelli McFarland and Yuan Gao and David Fedida and Jianmin Cui},
+  journal={Nature Communications},
+  volume={8},
+  pages={1730},
+  year={2017},
+  publisher={Nature Publishing Group}
+}

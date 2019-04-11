@@ -1,0 +1,7 @@
+@inproceedings{gao2016exploiting,
+  title={Exploiting symmetry and/or manhattan properties for 3d object structure estimation from single and multiple images},
+  author={Gao, Yuan and Yuille, Alan L},
+  booktitle={IEEE International Conference on Computer Vision and Pattern Recognition (CVPR)},
+  pages={6718-6727},
+  year={2017}
+}

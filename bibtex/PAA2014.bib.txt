@@ -1,0 +1,10 @@
+@article{gao2014robust,
+  title={A robust and outlier-adaptive method for non-rigid point registration},
+  author={Gao, Yuan and Ma, Jiayi and Zhao, Ji and Tian, Jinwen and Zhang, Dazhi},
+  journal={Pattern Analysis and Applications},
+  volume={17},
+  number={2},
+  pages={379--388},
+  year={2014},
+  publisher={Springer}
+}

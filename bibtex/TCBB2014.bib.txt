@@ -1,0 +1,10 @@
+@article{gao2014high,
+  title={A high-throughput zebrafish screening method for visual mutants by light-induced locomotor response},
+  author={Gao, Yuan and Chan, Rosa HM and Chow, Tommy WS and Zhang, Liyun and Bonilla, Sylvia and Pang, Chi-Pui and Zhang, Mingzhi and Leung, Yuk Fai},
+  journal={IEEE/ACM Transactions on Computational Biology and Bioinformatics},
+  volume={11},
+  number={4},
+  pages={693--701},
+  year={2014},
+  publisher={IEEE}
+}

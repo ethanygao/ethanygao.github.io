@@ -1,0 +1,6 @@
+@inproceedings{she2018reduce,
+  title={Reduced-Rank Linear Dynamical Systems},
+  author={Qi She and Yuan Gao and Kai Xu and Rosa H.M. Chan},
+  booktitle={AAAI Conference on Artificial Intelligence},
+  year={2018}
+}

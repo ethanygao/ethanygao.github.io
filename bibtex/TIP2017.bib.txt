@@ -1,0 +1,10 @@
+@article{gao2017semi,
+  title={Semi-Supervised Sparse Representation Based Classification for Face Recognition with Insufficient Labeled Samples},
+  author={Gao, Yuan and Ma, Jiayi and Yuille, Alan L.},
+  journal={IEEE Transactions on Image Processing},
+  volume={26},
+  number={5},
+  pages={2545--2560},
+  year={2017},
+  publisher={IEEE}
+}

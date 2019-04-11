@@ -1,0 +1,8 @@
+@inproceedings{ma2016robust,
+  title={Robust image matching via feature guided Gaussian mixture model},
+  author={Ma, Jiayi and Jiang, Junjun and Gao, Yuan and Chen, Jun and Liu, Chengyin},
+  booktitle={Multimedia and Expo (ICME), 2016 IEEE International Conference on},
+  pages={1--6},
+  year={2016},
+  organization={IEEE}
+}

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Homes on Welcome to Yuan Gao&#39;s Homepage</title>
+    <link>https://EthanYGao.github.io/home/</link>
+    <description>Recent content in Homes on Welcome to Yuan Gao&#39;s Homepage</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 29 Aug 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://EthanYGao.github.io/home/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>https://EthanYGao.github.io/home/about/</link>
+      <pubDate>Tue, 29 Aug 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://EthanYGao.github.io/home/about/</guid>
+      <description>Biography I am a senior researcher at Tencent AI Lab. I finished my PhD study in Electronic Engineering Department of City University of Hong Kong. I was also visiting Center for Cognition, Vision, and Learning (CCVL) of UCLA, during my PhD.
+I have been working on several projects across different subjects/areas by Statistical Machine Learning, including Computer Vision with Prof. Alan Yuille, and Complex Network with Prof. Guanrong Chen. My current/prior research interests include Object 3D Reconstruction, and Reinforcement Learning.</description>
+    </item>
+    
+    <item>
+      <title>News</title>
+      <link>https://EthanYGao.github.io/home/posts/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://EthanYGao.github.io/home/posts/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Selected Publications</title>
+      <link>https://EthanYGao.github.io/home/publications/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://EthanYGao.github.io/home/publications/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

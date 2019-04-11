@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Welcome to Yuan Gao&#39;s Homepage on Welcome to Yuan Gao&#39;s Homepage</title>
+    <link>https://EthanYGao.github.io/</link>
+    <description>Recent content in Welcome to Yuan Gao&#39;s Homepage on Welcome to Yuan Gao&#39;s Homepage</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 29 Aug 2017 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title></title>
+      <link>https://EthanYGao.github.io/post/cvpr19/</link>
+      <pubDate>Mon, 25 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://EthanYGao.github.io/post/cvpr19/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>NDDR-CNN: Layerwise Feature Fusing in Multi-Task CNNs by Neural Discriminative Dimensionality Reduction.</title>
+      <link>https://EthanYGao.github.io/publication/cvpr19_nddr/</link>
+      <pubDate>Mon, 25 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://EthanYGao.github.io/publication/cvpr19_nddr/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Face Anti-Spoofing: Model Matters, So Does Data.</title>
+      <link>https://EthanYGao.github.io/publication/cvpr19_antispoofing/</link>
+      <pubDate>Fri, 22 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://EthanYGao.github.io/publication/cvpr19_antispoofing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://EthanYGao.github.io/post/intern/</link>
+      <pubDate>Fri, 01 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://EthanYGao.github.io/post/intern/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://EthanYGao.github.io/post/tip-esi/</link>
+      <pubDate>Thu, 08 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://EthanYGao.github.io/post/tip-esi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Reduced-Rank Linear Dynamical Systems.</title>
+      <link>https://EthanYGao.github.io/publication/aaai18/</link>
+      <pubDate>Fri, 02 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://EthanYGao.github.io/publication/aaai18/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Inactivation of KCNQ1 potassium channels reveals dynamic coupling between voltage sensing and pore opening.</title>
+      <link>https://EthanYGao.github.io/publication/natcomm17/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://EthanYGao.github.io/publication/natcomm17/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://EthanYGao.github.io/post/aaai18/</link>
+      <pubDate>Wed, 08 Nov 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://EthanYGao.github.io/post/aaai18/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://EthanYGao.github.io/post/natcomm18/</link>
+      <pubDate>Wed, 25 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://EthanYGao.github.io/post/natcomm18/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://EthanYGao.github.io/post/ijcai/</link>
+      <pubDate>Sun, 23 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://EthanYGao.github.io/post/ijcai/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Locality Preserving Matching.</title>
+      <link>https://EthanYGao.github.io/publication/ijcai17/</link>
+      <pubDate>Sun, 23 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://EthanYGao.github.io/publication/ijcai17/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Exploiting Symmetry and/or Manhattan Properties for 3D Object Structure Estimation from Single and Multiple Images.</title>
+      <link>https://EthanYGao.github.io/publication/sym-sfm/</link>
+      <pubDate>Tue, 28 Mar 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://EthanYGao.github.io/publication/sym-sfm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://EthanYGao.github.io/post/cvpr/</link>
+      <pubDate>Mon, 27 Feb 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://EthanYGao.github.io/post/cvpr/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://EthanYGao.github.io/post/tip/</link>
+      <pubDate>Tue, 14 Feb 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://EthanYGao.github.io/post/tip/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Semi-Supervised Sparse Representation Based Classification for Face Recognition with Insufficient Labeled Samples.</title>
+      <link>https://EthanYGao.github.io/s3rc/</link>
+      <pubDate>Tue, 14 Feb 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://EthanYGao.github.io/s3rc/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

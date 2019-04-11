@@ -1,0 +1,6 @@
+@inproceedings{yang2019face,
+  title={Face Anti-Spoofing: Model Matters, So Does Data},
+  author={Xiao Yang and Wenhan Luo and Linchao Bao and Yuan Gao and Dihong Gong and Shibao Zheng and Zhifeng Li and Wei Liu},
+  booktitle={IEEE International Conference on Computer Vision and Pattern Recognition (CVPR)},
+  year={2019}
+}

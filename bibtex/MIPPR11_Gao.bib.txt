@@ -1,0 +1,8 @@
+@inproceedings{gao2011obstacle,
+  title={Obstacle detection by ground homograph estimation during autonomous navigation},
+  author={Gao, Yuan and Ma, Jiayi and Jiang, Wenjuan and Tian, Jinwen},
+  booktitle={Seventh International Symposium on Multispectral Image Processing and Pattern Recognition (MIPPR2011)},
+  pages={80030K--80030K},
+  year={2011},
+  organization={International Society for Optics and Photonics}
+}

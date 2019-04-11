@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>2 on Welcome to Yuan Gao&#39;s Homepage</title>
+    <link>https://EthanYGao.github.io/publication_types/2/</link>
+    <description>Recent content in 2 on Welcome to Yuan Gao&#39;s Homepage</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 01 Jan 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://EthanYGao.github.io/publication_types/2/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Inactivation of KCNQ1 potassium channels reveals dynamic coupling between voltage sensing and pore opening.</title>
+      <link>https://EthanYGao.github.io/publication/natcomm17/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://EthanYGao.github.io/publication/natcomm17/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Semi-Supervised Sparse Representation Based Classification for Face Recognition with Insufficient Labeled Samples.</title>
+      <link>https://EthanYGao.github.io/s3rc/</link>
+      <pubDate>Tue, 14 Feb 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://EthanYGao.github.io/s3rc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Semi-Supervised Sparse Representation Based Classification for Face Recognition with Insufficient Labeled Samples.</title>
+      <link>https://EthanYGao.github.io/publication/tip17/</link>
+      <pubDate>Tue, 14 Feb 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://EthanYGao.github.io/publication/tip17/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Robust feature matching for remote sensing image registration via locally linear transforming.</title>
+      <link>https://EthanYGao.github.io/publication/tgrs15/</link>
+      <pubDate>Tue, 01 Dec 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://EthanYGao.github.io/publication/tgrs15/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Naming Game on Networks: Let Everyone be Both Speaker and Hearer.</title>
+      <link>https://EthanYGao.github.io/publication/srep14/</link>
+      <pubDate>Thu, 21 Aug 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://EthanYGao.github.io/publication/srep14/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A high-throughput zebrafish screening method for visual mutants by light-induced locomotor response.</title>
+      <link>https://EthanYGao.github.io/publication/tcbb2014/</link>
+      <pubDate>Tue, 01 Jul 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://EthanYGao.github.io/publication/tcbb2014/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A robust and outlier-adaptive method for non-rigid point registration.</title>
+      <link>https://EthanYGao.github.io/publication/paa14/</link>
+      <pubDate>Thu, 01 May 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://EthanYGao.github.io/publication/paa14/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

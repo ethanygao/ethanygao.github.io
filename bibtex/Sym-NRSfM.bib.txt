@@ -1,0 +1,8 @@
+@inproceedings{gao2016symmetric,
+  title={Symmetric Non-rigid Structure from Motion for Category-Specific Object Structure Estimation},
+  author={Gao, Yuan and Yuille, Alan L},
+  booktitle={European Conference on Computer Vision (ECCV)},
+  pages={408--424},
+  year={2016},
+  organization={Springer}
+}

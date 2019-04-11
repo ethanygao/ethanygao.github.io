@@ -1,0 +1,9 @@
+@article{gao2016computational,
+  title={Computational classification of different wild-type zebrafish strains based on their variation in light-induced locomotor response},
+  author={Gao, Yuan and Zhang, Gaonan and Jelfs, Beth and Carmer, Robert and Venkatraman, Prahatha and Ghadami, Mohammad and Brown, Skye A and Pang, Chi Pui and Leung, Yuk Fai and Chan, Rosa HM and others},
+  journal={Computers in biology and medicine},
+  volume={69},
+  pages={1--9},
+  year={2016},
+  publisher={Elsevier}
+}

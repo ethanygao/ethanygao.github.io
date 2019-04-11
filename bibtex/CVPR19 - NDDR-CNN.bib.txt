@@ -1,0 +1,6 @@
+@inproceedings{gao2019nddr,
+  title={{NDDR}-{CNN}: Layerwise Feature Fusing in Multi-Task CNNs by Neural Discriminative Dimensionality Reduction},
+  author={Yuan Gao and Jiayi Ma and Mingbo Zhao and Wei Liu and Alan L. Yuille},
+  booktitle={IEEE International Conference on Computer Vision and Pattern Recognition (CVPR)},
+  year={2019}
+}

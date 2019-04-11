@@ -1,0 +1,6 @@
+@inproceedings{ma2017locality,
+  title={Locality Preserving Matching},
+  author={Ma, Jiayi and Zhao, Ji and Guo, Hanqi and Jiang, Junjun and Zhou, Huabing and Gao, Yuan},
+  booktitle={International Joint Conference on Artificial Intelligence},
+  year={2017}
+}

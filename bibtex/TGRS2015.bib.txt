@@ -1,0 +1,10 @@
+@article{ma2015robust,
+  title={Robust feature matching for remote sensing image registration via locally linear transforming},
+  author={Ma, Jiayi and Zhou, Huabing and Zhao, Ji and Gao, Yuan and Jiang, Junjun and Tian, Jinwen},
+  journal={IEEE Transactions on Geoscience and Remote Sensing},
+  volume={53},
+  number={12},
+  pages={6469--6481},
+  year={2015},
+  publisher={IEEE}
+}
