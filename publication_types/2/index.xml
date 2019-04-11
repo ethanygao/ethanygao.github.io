@@ -6,10 +6,19 @@
     <description>Recent content in 2 on Welcome to Yuan Gao&#39;s Homepage</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 01 Jan 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 22 Feb 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://EthanYGao.github.io/publication_types/2/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Feature-guided Gaussian Mixture Model for Image Matching.</title>
+      <link>https://EthanYGao.github.io/publication/pr19/</link>
+      <pubDate>Fri, 22 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://EthanYGao.github.io/publication/pr19/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Inactivation of KCNQ1 potassium channels reveals dynamic coupling between voltage sensing and pore opening.</title>

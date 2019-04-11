@@ -1,0 +1,9 @@
+@article{ma2019feature,
+  title={Feature-guided Gaussian mixture model for image matching},
+  author={Jiayi Ma and Xingyu Jiang and Junjun Jiang and Yuan Gao},
+  journal={Pattern Recognition},
+  volume={92},
+  pages={231--245},
+  year={2019},
+  publisher={Elsevier}
+}
