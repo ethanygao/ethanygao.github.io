@@ -1,0 +1,7 @@
+@article{gao2019estimation,
+  title={Estimation of 3D Category-Specific Object Structure: Symmetry, Manhattan and/or Multiple Images},
+  author={Gao, Yuan and Yuille, Alan L.},
+  journal={International Journal of Computer Vision},
+  year={2019},
+  publisher={Springer Nature}
+}
