@@ -1,0 +1,8 @@
+@article{hou2019ML277,
+  title={ML277 specifically enhances the fully activated open state of KCNQ1 by modulating VSD-pore coupling},
+  author={Panpan Hou and Jingyi Shi and Kelli McFarland White and Yuan Gao and Jianmin Cui},
+  journal={eLife},
+  volume={8},
+  pages={e48576},
+  year={2019}
+}

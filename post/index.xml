@@ -2,110 +2,118 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>News on Welcome to Yuan Gao&#39;s Homepage</title>
-    <link>https://ethanygao.github.io/post/index.xml</link>
+    <link>https://EthanYGao.github.io/post/</link>
     <description>Recent content in News on Welcome to Yuan Gao&#39;s Homepage</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="https://EthanYGao.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title></title>
-      <link>https://ethanygao.github.io/post/IJCV19/</link>
+      <link>https://EthanYGao.github.io/post/ijcv19/</link>
       <pubDate>Sat, 08 Jun 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://ethanygao.github.io/post/IJCV19/</guid>
-      <description></description>
+      <guid>https://EthanYGao.github.io/post/ijcv19/</guid>
+      <description>Our paper: &amp;ldquo;&lt;em&gt;Estimation of 3D Category-Specific Object Structure: Symmetry, Manhattan and or Multiple Images&lt;/em&gt;&amp;rdquo; has been accepted to &lt;font color=#0099ff&gt;IJCV&lt;/font&gt;.</description>
     </item>
     
     <item>
       <title></title>
-      <link>https://ethanygao.github.io/post/CVPR19/</link>
+      <link>https://EthanYGao.github.io/post/cvpr19/</link>
       <pubDate>Mon, 25 Feb 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://ethanygao.github.io/post/CVPR19/</guid>
-      <description></description>
+      <guid>https://EthanYGao.github.io/post/cvpr19/</guid>
+      <description>Two papers: &amp;ldquo;&lt;em&gt;NDDR-CNN: Layerwise Feature Fusing in Multi-Task CNNs by Neural Discriminative Dimensionality Reduction&lt;/em&gt;&amp;rdquo; and &amp;ldquo;&lt;em&gt;Face Anti-Spoofing: Model Matters, So Does Data&lt;/em&gt;&amp;rdquo; have been accepted to &lt;font color=#0099ff&gt;CVPR2019&lt;/font&gt;.</description>
     </item>
     
     <item>
       <title></title>
-      <link>https://ethanygao.github.io/post/Intern/</link>
+      <link>https://EthanYGao.github.io/post/intern/</link>
       <pubDate>Fri, 01 Feb 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://ethanygao.github.io/post/Intern/</guid>
-      <description></description>
+      <guid>https://EthanYGao.github.io/post/intern/</guid>
+      <description>&lt;strong&gt;Intern positions&lt;/strong&gt; are currently available. Please contact me with your CV if you are interested in doing cutting-edge computer vision researches.</description>
     </item>
     
     <item>
       <title></title>
-      <link>https://ethanygao.github.io/post/TIP-ESI/</link>
+      <link>https://EthanYGao.github.io/post/tip-esi/</link>
       <pubDate>Thu, 08 Mar 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://ethanygao.github.io/post/TIP-ESI/</guid>
-      <description></description>
+      <guid>https://EthanYGao.github.io/post/tip-esi/</guid>
+      <description>Our paper: &amp;ldquo;&lt;em&gt;Semi-Supervised Sparse Representation Based Classification for Face Recognition with Insufficient Labeled Samples&lt;/em&gt;&amp;rdquo; has been elected into &lt;font color=#0099ff&gt;ESI Highly Cited Paper&lt;/font&gt;.</description>
     </item>
     
     <item>
       <title></title>
-      <link>https://ethanygao.github.io/post/AAAI18/</link>
+      <link>https://EthanYGao.github.io/post/aaai18/</link>
       <pubDate>Wed, 08 Nov 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://ethanygao.github.io/post/AAAI18/</guid>
-      <description></description>
+      <guid>https://EthanYGao.github.io/post/aaai18/</guid>
+      <description>&lt;p&gt;Our paper: &amp;ldquo;&lt;em&gt;Reduced-Rank Linear Dynamical Systems&lt;/em&gt;&amp;rdquo; has been accepted to &lt;font color=#0099ff&gt;AAAI2018&lt;/font&gt;.&lt;/p&gt;
+
+&lt;p&gt;This work was featured on &lt;a href=&#34;https://www.jiqizhixin.com/articles/reduced-rank-linear-dynamical-systems&#34; target=&#34;_blank&#34;&gt;JiQiZhiXin (机器之心)&lt;/a&gt;&lt;/p&gt;
+</description>
     </item>
     
     <item>
       <title></title>
-      <link>https://ethanygao.github.io/post/NatComm18/</link>
+      <link>https://EthanYGao.github.io/post/natcomm18/</link>
       <pubDate>Wed, 25 Oct 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://ethanygao.github.io/post/NatComm18/</guid>
-      <description></description>
+      <guid>https://EthanYGao.github.io/post/natcomm18/</guid>
+      <description>&lt;p&gt;Our paper: &amp;ldquo;&lt;em&gt;Inactivation of KCNQ1 potassium channels reveals dynamic coupling between voltage sensing and pore opening&lt;/em&gt;&amp;rdquo; has been accepted to &lt;font color=#0099ff&gt;Nature Communications&lt;/font&gt;, where we derived a Markov Process to model the dynamic and stationary states of the voltage-dependent ion channel activation.&lt;/p&gt;
+
+&lt;p&gt;This work was featured on the largest Chinese online medium, such as &lt;a href=&#34;http://tech.qq.com/a/20171127/029472.htm&#34; target=&#34;_blank&#34;&gt;Tencent News (腾讯新闻)&lt;/a&gt;, &lt;a href=&#34;https://www.toutiao.com/a6492992335209562638/&#34; target=&#34;_blank&#34;&gt;TouTiao News (今日头条)&lt;/a&gt;, &lt;a href=&#34;http://news.163.com/shuangchuang/17/1128/13/D4B7O4BQ000197V8.html&#34; target=&#34;_blank&#34;&gt;Netease News (网易新闻)&lt;/a&gt;, &lt;a href=&#34;http://www.sohu.com/a/207083322_114731&#34; target=&#34;_blank&#34;&gt;Sohu News (搜狐新闻)&lt;/a&gt;, &lt;a href=&#34;http://industry.people.com.cn/n1/2017/1128/c413883-29672631.html&#34; target=&#34;_blank&#34;&gt;People&amp;rsquo;s Daily (人民网)&lt;/a&gt;, &lt;a href=&#34;https://www.jiqizhixin.com/articles/2017-11-27-8&#34; target=&#34;_blank&#34;&gt;JiQiZhiXin (机器之心)&lt;/a&gt;, etc.&lt;/p&gt;
+</description>
     </item>
     
     <item>
       <title></title>
-      <link>https://ethanygao.github.io/post/IJCAI/</link>
+      <link>https://EthanYGao.github.io/post/ijcai/</link>
       <pubDate>Sun, 23 Apr 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://ethanygao.github.io/post/IJCAI/</guid>
-      <description></description>
+      <guid>https://EthanYGao.github.io/post/ijcai/</guid>
+      <description>Our paper: &amp;ldquo;&lt;em&gt;Locality Preserving Matching&lt;/em&gt;&amp;rdquo; has been accepted to &lt;font color=#0099ff&gt;IJCAI2017&lt;/font&gt;.</description>
     </item>
     
     <item>
       <title></title>
-      <link>https://ethanygao.github.io/post/CVPR17/</link>
+      <link>https://EthanYGao.github.io/post/cvpr17/</link>
       <pubDate>Mon, 27 Feb 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://ethanygao.github.io/post/CVPR17/</guid>
-      <description></description>
+      <guid>https://EthanYGao.github.io/post/cvpr17/</guid>
+      <description>Our paper: &amp;ldquo;&lt;em&gt;Exploiting Symmetry and/or Manhattan Properties for 3D Object Structure Estimation from Single and Multiple Images&lt;/em&gt;&amp;rdquo; has been accepted to &lt;font color=#0099ff&gt;CVPR2017&lt;/font&gt;.</description>
     </item>
     
     <item>
       <title></title>
-      <link>https://ethanygao.github.io/post/TIP/</link>
+      <link>https://EthanYGao.github.io/post/tip/</link>
       <pubDate>Tue, 14 Feb 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://ethanygao.github.io/post/TIP/</guid>
-      <description></description>
+      <guid>https://EthanYGao.github.io/post/tip/</guid>
+      <description>Our paper: &amp;ldquo;&lt;em&gt;Semi-Supervised Sparse Representation Based Classification for Face Recognition with Insufficient Labeled Samples&lt;/em&gt;&amp;rdquo; has been accepted to &lt;font color=#0099ff&gt;IEEE TIP&lt;/font&gt;.</description>
     </item>
     
     <item>
       <title></title>
-      <link>https://ethanygao.github.io/post/JoinTencent/</link>
+      <link>https://EthanYGao.github.io/post/jointencent/</link>
       <pubDate>Wed, 11 Jan 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://ethanygao.github.io/post/JoinTencent/</guid>
-      <description></description>
+      <guid>https://EthanYGao.github.io/post/jointencent/</guid>
+      <description>I joined Tencent AI Lab as a senior researcher. I am currently working on Reinforcement Learning.</description>
     </item>
     
     <item>
       <title></title>
-      <link>https://ethanygao.github.io/post/ECCV/</link>
+      <link>https://EthanYGao.github.io/post/eccv/</link>
       <pubDate>Mon, 11 Jul 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://ethanygao.github.io/post/ECCV/</guid>
-      <description></description>
+      <guid>https://EthanYGao.github.io/post/eccv/</guid>
+      <description>Our paper: &amp;ldquo;&lt;em&gt;Symmetric Non-Rigid Structure from Motion for Category-Specific Object Structure Estimation&lt;/em&gt;&amp;rdquo; has been accepted to &lt;font color=#0099ff&gt;ECCV2016&lt;/font&gt;.</description>
     </item>
     
   </channel>

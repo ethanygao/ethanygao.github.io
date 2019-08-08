@@ -1,20 +1,23 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Demo on Welcome to Yuan Gao&#39;s Homepage</title>
-    <link>https://ethanygao.github.io/tags/demo/index.xml</link>
-    <description>Recent content in Demo on Welcome to Yuan Gao&#39;s Homepage</description>
+    <title>demo on Welcome to Yuan Gao&#39;s Homepage</title>
+    <link>https://EthanYGao.github.io/tags/demo/</link>
+    <description>Recent content in demo on Welcome to Yuan Gao&#39;s Homepage</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="/tags/demo/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 27 Apr 2016 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://EthanYGao.github.io/tags/demo/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>External Project</title>
-      <link>https://ethanygao.github.io/project/example-external-project/</link>
+      <link>https://EthanYGao.github.io/project/example-external-project/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://ethanygao.github.io/project/example-external-project/</guid>
-      <description></description>
+      <guid>https://EthanYGao.github.io/project/example-external-project/</guid>
+      <description>An example of linking directly to an external project website using &lt;code&gt;external_link&lt;/code&gt;.</description>
     </item>
     
   </channel>

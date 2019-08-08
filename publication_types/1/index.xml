@@ -2,135 +2,138 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>1 on Welcome to Yuan Gao&#39;s Homepage</title>
-    <link>https://ethanygao.github.io/publication_types/1/index.xml</link>
+    <link>https://EthanYGao.github.io/publication_types/1/</link>
     <description>Recent content in 1 on Welcome to Yuan Gao&#39;s Homepage</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="/publication_types/1/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 25 Feb 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://EthanYGao.github.io/publication_types/1/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>NDDR-CNN: Layerwise Feature Fusing in Multi-Task CNNs by Neural Discriminative Dimensionality Reduction.</title>
-      <link>https://ethanygao.github.io/publication/CVPR19_nddr/</link>
+      <link>https://EthanYGao.github.io/publication/cvpr19_nddr/</link>
       <pubDate>Mon, 25 Feb 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://ethanygao.github.io/publication/CVPR19_nddr/</guid>
+      <guid>https://EthanYGao.github.io/publication/cvpr19_nddr/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Face Anti-Spoofing: Model Matters, So Does Data.</title>
-      <link>https://ethanygao.github.io/publication/CVPR19_antispoofing/</link>
+      <link>https://EthanYGao.github.io/publication/cvpr19_antispoofing/</link>
       <pubDate>Fri, 22 Feb 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://ethanygao.github.io/publication/CVPR19_antispoofing/</guid>
+      <guid>https://EthanYGao.github.io/publication/cvpr19_antispoofing/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Reduced-Rank Linear Dynamical Systems.</title>
-      <link>https://ethanygao.github.io/publication/AAAI18/</link>
+      <link>https://EthanYGao.github.io/publication/aaai18/</link>
       <pubDate>Fri, 02 Feb 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://ethanygao.github.io/publication/AAAI18/</guid>
+      <guid>https://EthanYGao.github.io/publication/aaai18/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Locality Preserving Matching.</title>
-      <link>https://ethanygao.github.io/publication/IJCAI17/</link>
+      <link>https://EthanYGao.github.io/publication/ijcai17/</link>
       <pubDate>Sun, 23 Apr 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://ethanygao.github.io/publication/IJCAI17/</guid>
+      <guid>https://EthanYGao.github.io/publication/ijcai17/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Exploiting Symmetry and/or Manhattan Properties for 3D Object Structure Estimation from Single and Multiple Images.</title>
-      <link>https://ethanygao.github.io/publication/Sym-SfM/</link>
+      <link>https://EthanYGao.github.io/publication/sym-sfm/</link>
       <pubDate>Tue, 28 Mar 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://ethanygao.github.io/publication/Sym-SfM/</guid>
+      <guid>https://EthanYGao.github.io/publication/sym-sfm/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Symmetric Non-Rigid Structure from Motion for Category-Specific Object Structure Estimation.</title>
-      <link>https://ethanygao.github.io/Sym-NRSfM/</link>
+      <link>https://EthanYGao.github.io/sym-nrsfm/</link>
       <pubDate>Sat, 17 Sep 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://ethanygao.github.io/Sym-NRSfM/</guid>
+      <guid>https://EthanYGao.github.io/sym-nrsfm/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Symmetric Non-Rigid Structure from Motion for Category-Specific Object Structure Estimation.</title>
-      <link>https://ethanygao.github.io/publication/Sym-NRSfM/</link>
+      <link>https://EthanYGao.github.io/publication/sym-nrsfm/</link>
       <pubDate>Sat, 17 Sep 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://ethanygao.github.io/publication/Sym-NRSfM/</guid>
+      <guid>https://EthanYGao.github.io/publication/sym-nrsfm/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Sparse Unmixing of Hyperspectral Data based on Robust Linear Mixing Model.</title>
-      <link>https://ethanygao.github.io/publication/VCIP16/</link>
+      <link>https://EthanYGao.github.io/publication/vcip16/</link>
       <pubDate>Fri, 01 Jul 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://ethanygao.github.io/publication/VCIP16/</guid>
+      <guid>https://EthanYGao.github.io/publication/vcip16/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Robust Image Matching Via Feature Guided Gaussian Mixture Model.</title>
-      <link>https://ethanygao.github.io/publication/Matching-ICME/</link>
+      <link>https://EthanYGao.github.io/publication/matching-icme/</link>
       <pubDate>Sat, 12 Mar 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://ethanygao.github.io/publication/Matching-ICME/</guid>
+      <guid>https://EthanYGao.github.io/publication/matching-icme/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Computational classification of different wild-type zebrafish strains based on their variation in light-induced locomotor response.</title>
-      <link>https://ethanygao.github.io/publication/CBM16/</link>
+      <link>https://EthanYGao.github.io/publication/cbm16/</link>
       <pubDate>Mon, 01 Feb 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://ethanygao.github.io/publication/CBM16/</guid>
+      <guid>https://EthanYGao.github.io/publication/cbm16/</guid>
       <description></description>
     </item>
     
     <item>
       <title>A framework for quantification and visualization of segmentation accuracy and variability in 3D lateral ventricle ultrasound images of preterm neonates.</title>
-      <link>https://ethanygao.github.io/publication/MedPhys2015/</link>
+      <link>https://EthanYGao.github.io/publication/medphys2015/</link>
       <pubDate>Sun, 01 Nov 2015 00:00:00 +0000</pubDate>
       
-      <guid>https://ethanygao.github.io/publication/MedPhys2015/</guid>
+      <guid>https://EthanYGao.github.io/publication/medphys2015/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Obstacle detection by ground homograph estimation during autonomous navigation.</title>
-      <link>https://ethanygao.github.io/publication/MIPPR11_Gao/</link>
+      <link>https://EthanYGao.github.io/publication/mippr11_gao/</link>
       <pubDate>Fri, 02 Dec 2011 00:00:00 +0000</pubDate>
       
-      <guid>https://ethanygao.github.io/publication/MIPPR11_Gao/</guid>
+      <guid>https://EthanYGao.github.io/publication/mippr11_gao/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Terrain Reconstruction Algorithm Based on Epipolar Line Rectification and Dense Matching.</title>
-      <link>https://ethanygao.github.io/publication/MIPPR11_Jiang/</link>
+      <link>https://EthanYGao.github.io/publication/mippr11_jiang/</link>
       <pubDate>Fri, 02 Dec 2011 00:00:00 +0000</pubDate>
       
-      <guid>https://ethanygao.github.io/publication/MIPPR11_Jiang/</guid>
+      <guid>https://EthanYGao.github.io/publication/mippr11_jiang/</guid>
       <description></description>
     </item>
     
     <item>
       <title>An algorithm for remote sensing image mosaic based on valid area.</title>
-      <link>https://ethanygao.github.io/publication/ISIDF11/</link>
+      <link>https://EthanYGao.github.io/publication/isidf11/</link>
       <pubDate>Fri, 23 Sep 2011 00:00:00 +0000</pubDate>
       
-      <guid>https://ethanygao.github.io/publication/ISIDF11/</guid>
+      <guid>https://EthanYGao.github.io/publication/isidf11/</guid>
       <description></description>
     </item>
     
