@@ -34,11 +34,11 @@
   <link rel="icon" type="image/png" href="/img/icon.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/apple-touch-icon.png">
 
-  <link rel="canonical" href="https://EthanYGao.github.io/publication/ijcv2019/">
+  <link rel="canonical" href="https://EthanYGao.github.io/publication/cvpr20_mtl-nas/">
 
   
 
-  <title>Estimation of 3D Category-Specific Object Structure: Symmetry, Manhattan and/or Multiple Images. | Welcome to Yuan Gao&#39;s Homepage</title>
+  <title>MTL-NAS: Task-Agnostic Neural Architecture Search towards General-Purpose Multi-Task Learning. | Welcome to Yuan Gao&#39;s Homepage</title>
 
 </head>
 <body id="top" data-spy="scroll" data-target="#navbar-main" data-offset="71">
@@ -111,10 +111,10 @@
   
 
   <div class="container pub-title">
-    <h1 itemprop="name">Estimation of 3D Category-Specific Object Structure: Symmetry, Manhattan and/or Multiple Images.</h1>
+    <h1 itemprop="name">MTL-NAS: Task-Agnostic Neural Architecture Search towards General-Purpose Multi-Task Learning.</h1>
     <span class="pub-authors" itemprop="author">
       
-      <font color=#0099ff>Yuan Gao</font>, and Alan L. Yuille.
+      <font color=#0099ff>Yuan Gao</font><code>*</code>, Haoping Bai<code>*</code>, Zequn Jie, Jiayi Ma, Kui Jia, and Wei Liu. (<code>*</code> indicates equal contribution)
       
     </span>
     <span class="pull-right">
@@ -123,35 +123,35 @@
   <ul class="share">
     <li>
       <a class="facebook"
-         href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fEthanYGao.github.io%2fpublication%2fijcv2019%2f"
+         href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fEthanYGao.github.io%2fpublication%2fcvpr20_mtl-nas%2f"
          target="_blank">
         <i class="fa fa-facebook"></i>
       </a>
     </li>
     <li>
       <a class="twitter"
-         href="https://twitter.com/intent/tweet?text=Estimation%20of%203D%20Category-Specific%20Object%20Structure%3a%20Symmetry%2c%20Manhattan%20and%2for%20Multiple%20Images.&amp;url=https%3a%2f%2fEthanYGao.github.io%2fpublication%2fijcv2019%2f"
+         href="https://twitter.com/intent/tweet?text=MTL-NAS%3a%20Task-Agnostic%20Neural%20Architecture%20Search%20towards%20General-Purpose%20Multi-Task%20Learning.&amp;url=https%3a%2f%2fEthanYGao.github.io%2fpublication%2fcvpr20_mtl-nas%2f"
          target="_blank">
         <i class="fa fa-twitter"></i>
       </a>
     </li>
     <li>
       <a class="linkedin"
-         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fEthanYGao.github.io%2fpublication%2fijcv2019%2f&amp;title=Estimation%20of%203D%20Category-Specific%20Object%20Structure%3a%20Symmetry%2c%20Manhattan%20and%2for%20Multiple%20Images."
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fEthanYGao.github.io%2fpublication%2fcvpr20_mtl-nas%2f&amp;title=MTL-NAS%3a%20Task-Agnostic%20Neural%20Architecture%20Search%20towards%20General-Purpose%20Multi-Task%20Learning."
          target="_blank">
         <i class="fa fa-linkedin"></i>
       </a>
     </li>
     <li>
       <a class="weibo"
-         href="http://service.weibo.com/share/share.php?url=https%3a%2f%2fEthanYGao.github.io%2fpublication%2fijcv2019%2f&amp;title=Estimation%20of%203D%20Category-Specific%20Object%20Structure%3a%20Symmetry%2c%20Manhattan%20and%2for%20Multiple%20Images."
+         href="http://service.weibo.com/share/share.php?url=https%3a%2f%2fEthanYGao.github.io%2fpublication%2fcvpr20_mtl-nas%2f&amp;title=MTL-NAS%3a%20Task-Agnostic%20Neural%20Architecture%20Search%20towards%20General-Purpose%20Multi-Task%20Learning."
          target="_blank">
         <i class="fa fa-weibo"></i>
       </a>
     </li>
     <li>
       <a class="email"
-         href="mailto:?subject=Estimation%20of%203D%20Category-Specific%20Object%20Structure%3a%20Symmetry%2c%20Manhattan%20and%2for%20Multiple%20Images.&amp;body=https%3a%2f%2fEthanYGao.github.io%2fpublication%2fijcv2019%2f">
+         href="mailto:?subject=MTL-NAS%3a%20Task-Agnostic%20Neural%20Architecture%20Search%20towards%20General-Purpose%20Multi-Task%20Learning.&amp;body=https%3a%2f%2fEthanYGao.github.io%2fpublication%2fcvpr20_mtl-nas%2f">
         <i class="fa fa-envelope"></i>
       </a>
     </li>
@@ -168,7 +168,7 @@
   
 
   <h3>Abstract</h3>
-  <p class="pub-abstract" itemprop="text">Many man-made objects have intrinsic symmetries and often Manhattan structure. By assuming an orthographic or weak perspective projection model, this paper addresses the estimation of 3D structures and camera projection using symmetry and/or Manhattan structure cues, for the two cases when the input is a single image or multiple images from the same category, e.g. multiple different cars from various viewpoints. More specifically, analysis on the single image case shows that Manhattan alone is sufficient to recover the camera projection and then the 3D structure can be reconstructed uniquely by exploiting symmetry. But Manhattan structure can be hard to observe from a single image due to occlusion. Hence, we extend to the multiple image case which can also exploit symmetry but does not require Manhattan structure. We propose novel structure from motion methods for both rigid and non-rigid object deformations, which exploit symmetry and use multiple images from the same object category as input. We perform experiments on the Pascal3D&#43; dataset with either human labeled 2D keypoints or with 2D keypoints localized from a convolutional neural network. The results show that our methods which exploit symmetry significantly outperform the baseline methods.</p>
+  <p class="pub-abstract" itemprop="text">We propose to incorporate neural architecture search (NAS) into general-purpose multi-task learning (GP-MTL). Existing NAS methods typically define different search spaces according to different tasks. In order to adapt to different task combinations (i.e., task sets), we disentangle the GP-MTL networks into single-task backbones (optionally encode the task priors), and a hierarchical and layerwise features sharing/fusing scheme across them. This enables us to design a novel and general task-agnostic search space, which inserts cross-task edges (i.e., feature fusion connections) into fixed single-task network backbones. Moreover, we also propose a novel single-shot gradient-based search algorithm that closes the performance gap between the searched architectures and the final evaluation architecture. This is realized with a minimum entropy regularization on the architecture weights during the search phase, which makes the architecture weights converge to near-discrete values and therefore achieves a single model. As a result, our searched model can be directly used for evaluation without (re-)training from scratch. We perform extensive experiments using different single-task backbones on various task sets, demonstrating the promising performance obtained by exploiting the hierarchical and layerwise features, as well as the desirable generalizability to different i) task sets and ii) single-task backbones. The code of our paper is available at https://github.com/bhpfelix/MTLNAS.</p>
 
   
   <div class="row">
@@ -178,8 +178,8 @@
         <div class="col-xs-12 col-sm-3 pub-row-heading">Type</div>
         <div class="col-xs-12 col-sm-9">
           
-          <a href="/publication/#2">
-            Journal
+          <a href="/publication/#1">
+            Conference proceedings
           </a>
           
         </div>
@@ -195,7 +195,7 @@
     <div class="col-sm-10">
       <div class="row">
         <div class="col-xs-12 col-sm-3 pub-row-heading">Publication</div>
-        <div class="col-xs-12 col-sm-9"><em>International Journal of Computer Vision (IJCV)</em>, 2019.</div>
+        <div class="col-xs-12 col-sm-9"><em>IEEE International Conference on Computer Vision and Pattern Recognition (CVPR)</em>, 2020.</div>
       </div>
     </div>
     <div class="col-sm-1"></div>
@@ -208,7 +208,7 @@
       <div class="row">
         <div class="col-xs-12 col-sm-3 pub-row-heading">Date</div>
         <div class="col-xs-12 col-sm-9" itemprop="datePublished">
-          August, 2019
+          March, 2020
         </div>
       </div>
     </div>
@@ -228,25 +228,33 @@
 
 
 
-<a class="btn btn-primary btn-outline" href="https://EthanYGao.github.io/pdf/IJCV2019.pdf">
+<a class="btn btn-primary btn-outline" href="https://EthanYGao.github.io/pdf/CVPR2020%20-%20MTL-NAS.pdf">
   PDF
 </a>
 
 
-<a class="btn btn-primary btn-outline" href="https://EthanYGao.github.io/bibtex/IJCV2019.bib.txt">
+<a class="btn btn-primary btn-outline" href="https://EthanYGao.github.io/bibtex/CVPR20%20-%20MTL-NAS.bib.txt">
   BibTex
 </a>
 
 
+<a class="btn btn-primary btn-outline" href="https://github.com/bhpfelix/MTLNAS">
+  Code
+</a>
 
 
 
 
 
-<a class="btn btn-primary btn-outline" href="https://EthanYGao.github.io/sm/IJCV2019%20-%20supp.pdf">
+
+<a class="btn btn-primary btn-outline" href="https://EthanYGao.github.io/sm/CVPR2020%20-%20supp%20-%20MTL-NAS.pdf">
   Supp. Materials
 </a>
 
+
+<a class="btn btn-primary btn-outline" href="https://arxiv.org/abs/1801.08297">
+  arXiv
+</a>
 
 
         </div>
@@ -266,13 +274,10 @@
   <nav>
   <ul class="pager">
     
-    <li class="previous"><a href="https://EthanYGao.github.io/publication/elife19/"><span
-      aria-hidden="true">&larr;</span> ML277 specifically enhances the fully activated open state of KCNQ1 by modulating VSD-pore coupling.</a></li>
+    <li class="previous"><a href="https://EthanYGao.github.io/publication/ijcv2019/"><span
+      aria-hidden="true">&larr;</span> Estimation of 3D Category-Specific Object Structure: Symmetry, Manhattan and/or Multiple Images.</a></li>
     
 
-    
-    <li class="next"><a href="https://EthanYGao.github.io/publication/cvpr20_mtl-nas/">MTL-NAS: Task-Agnostic Neural Architecture Search towards General-Purpose Multi-Task Learning. <span
-      aria-hidden="true">&rarr;</span></a></li>
     
   </ul>
 </nav>
