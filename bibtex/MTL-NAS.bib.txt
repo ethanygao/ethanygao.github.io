@@ -1,5 +1,5 @@
 @inproceedings{gao2020mtl,
-  title={MTL-NAS: Task-Agnostic Neural Architecture Search towards General-Purpose Multi-Task Learning},
+  title={{MTL}-{NAS}: Task-Agnostic Neural Architecture Search towards General-Purpose Multi-Task Learning},
   author={Yuan Gao and Haoping Bai and Zequn Jie and Jiayi Ma and Kui Jia and Wei Liu},
   booktitle={IEEE International Conference on Computer Vision and Pattern Recognition (CVPR)},
   year={2020}
