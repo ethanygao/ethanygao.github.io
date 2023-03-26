@@ -1,0 +1,6 @@
+@inproceedings{shi2022finding,
+  title={Finding Dynamics Preserving Adversarial Winning Tickets},
+  author={Xupeng Shi and Pengfei Zheng and A. Adam Ding and Yuan Gao and Weizhong Zhang},
+  booktitle={Artificial Intelligence and Statistics},
+  year={2022}
+}

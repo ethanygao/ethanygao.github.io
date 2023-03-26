@@ -1,0 +1,9 @@
+@article{zeng2020TileGAN,
+  title={TileGAN: Category-oriented Attention-based High-quality Tiled Clothes Generation from Dressed Person},
+  author={Wei Zeng and Mingbo Zhao and Yuan Gao and Zhao Zhang},
+  journal={Neural Computing and Applications},
+  volume={32},
+  pages={17587--17600},
+  year={2020},
+  publisher={Springer Nature}
+}

@@ -1,0 +1,6 @@
+@inproceedings{li2021exploiting,
+  title={Exploiting Learnable Joint Groups for Hand Pose Estimation},
+  author={Moran Li and Yuan Gao and Nong Sang},
+  booktitle={AAAI Conference on Artificial Intelligence},
+  year={2021}
+}
