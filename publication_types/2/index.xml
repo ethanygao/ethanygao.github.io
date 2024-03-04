@@ -6,10 +6,19 @@
     <description>Recent content in 2 on Welcome to Yuan Gao&#39;s Homepage</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 08 May 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 01 Jan 2024 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://EthanYGao.github.io/publication_types/2/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>MAUN: Memory-Augmented Deep Unfolding Network for Hyperspectral Image Reconstruction.</title>
+      <link>https://EthanYGao.github.io/publication/jas24/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://EthanYGao.github.io/publication/jas24/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>TileGAN: Category-oriented Attention-based High-quality Tiled Clothes Generation from Dressed Person.</title>

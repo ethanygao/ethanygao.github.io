@@ -1,0 +1,6 @@
+@inproceedings{xia2024locality,
+  title={Anchor-based Robust Finetuning of Vision-Language Models},
+  author={Jinwei Han and Zhiwen Lin and Zhongyisun Sun and Yingguo Gao and Ke Yan and Shouhong Ding and Yuan Gao and Gui-Song Xia},
+  booktitle={IEEE/CVF International Conference on Computer Vision and Pattern Recognition},
+  year={2024}
+}

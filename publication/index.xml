@@ -12,7 +12,25 @@
     
     
     <item>
-      <title>Free Lunches in Auxiliary Learning: Exploiting Auxiliary Labels with Negligibly Extra Inference Cost.</title>
+      <title>Anchor-based Robust Finetuning of Vision-Language Models.</title>
+      <link>https://EthanYGao.github.io/publication/cvpr24_anchor/</link>
+      <pubDate>Wed, 28 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://EthanYGao.github.io/publication/cvpr24_anchor/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>DeMatch: Deep Decomposition of Motion Field for Two-View Correspondence Learning.</title>
+      <link>https://EthanYGao.github.io/publication/cvpr24_dematch/</link>
+      <pubDate>Tue, 27 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://EthanYGao.github.io/publication/cvpr24_dematch/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Aux-NAS: Exploiting Auxiliary Labels with Negligibly Extra Inference Cost.</title>
       <link>https://EthanYGao.github.io/publication/iclr24/</link>
       <pubDate>Sat, 20 Jan 2024 00:00:00 +0000</pubDate>
       
@@ -26,6 +44,15 @@
       <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
       
       <guid>https://EthanYGao.github.io/publication/aaai24/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>MAUN: Memory-Augmented Deep Unfolding Network for Hyperspectral Image Reconstruction.</title>
+      <link>https://EthanYGao.github.io/publication/jas24/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://EthanYGao.github.io/publication/jas24/</guid>
       <description></description>
     </item>
     

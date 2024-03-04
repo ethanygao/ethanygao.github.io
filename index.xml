@@ -5,11 +5,29 @@
     <description>Recent content in Welcome to Yuan Gao&#39;s Homepage on Welcome to Yuan Gao&#39;s Homepage</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 20 Jan 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 28 Feb 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>Free Lunches in Auxiliary Learning: Exploiting Auxiliary Labels with Negligibly Extra Inference Cost.</title>
+      <title>Anchor-based Robust Finetuning of Vision-Language Models.</title>
+      <link>https://EthanYGao.github.io/publication/cvpr24_anchor/</link>
+      <pubDate>Wed, 28 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://EthanYGao.github.io/publication/cvpr24_anchor/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>DeMatch: Deep Decomposition of Motion Field for Two-View Correspondence Learning.</title>
+      <link>https://EthanYGao.github.io/publication/cvpr24_dematch/</link>
+      <pubDate>Tue, 27 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://EthanYGao.github.io/publication/cvpr24_dematch/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Aux-NAS: Exploiting Auxiliary Labels with Negligibly Extra Inference Cost.</title>
       <link>https://EthanYGao.github.io/publication/iclr24/</link>
       <pubDate>Sat, 20 Jan 2024 00:00:00 +0000</pubDate>
       
@@ -23,6 +41,15 @@
       <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
       
       <guid>https://EthanYGao.github.io/publication/aaai24/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>MAUN: Memory-Augmented Deep Unfolding Network for Hyperspectral Image Reconstruction.</title>
+      <link>https://EthanYGao.github.io/publication/jas24/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://EthanYGao.github.io/publication/jas24/</guid>
       <description></description>
     </item>
     
@@ -113,33 +140,6 @@
       <pubDate>Mon, 25 Feb 2019 00:00:00 +0000</pubDate>
       
       <guid>https://EthanYGao.github.io/post/cvpr19/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>NDDR-CNN: Layerwise Feature Fusing in Multi-Task CNNs by Neural Discriminative Dimensionality Reduction.</title>
-      <link>https://EthanYGao.github.io/publication/cvpr19_nddr/</link>
-      <pubDate>Mon, 25 Feb 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://EthanYGao.github.io/publication/cvpr19_nddr/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Face Anti-Spoofing: Model Matters, So Does Data.</title>
-      <link>https://EthanYGao.github.io/publication/cvpr19_antispoofing/</link>
-      <pubDate>Fri, 22 Feb 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://EthanYGao.github.io/publication/cvpr19_antispoofing/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Feature-guided Gaussian Mixture Model for Image Matching.</title>
-      <link>https://EthanYGao.github.io/publication/pr19/</link>
-      <pubDate>Fri, 22 Feb 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://EthanYGao.github.io/publication/pr19/</guid>
       <description></description>
     </item>
     
