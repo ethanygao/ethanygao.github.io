@@ -82,15 +82,6 @@
     
     <item>
       <title></title>
-      <link>https://EthanYGao.github.io/post/intern/</link>
-      <pubDate>Wed, 01 Apr 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://EthanYGao.github.io/post/intern/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title></title>
       <link>https://EthanYGao.github.io/post/cvpr2020/</link>
       <pubDate>Tue, 31 Mar 2020 00:00:00 +0000</pubDate>
       
@@ -140,6 +131,15 @@
       <pubDate>Mon, 25 Feb 2019 00:00:00 +0000</pubDate>
       
       <guid>https://EthanYGao.github.io/post/cvpr19/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>NDDR-CNN: Layerwise Feature Fusing in Multi-Task CNNs by Neural Discriminative Dimensionality Reduction.</title>
+      <link>https://EthanYGao.github.io/publication/cvpr19_nddr/</link>
+      <pubDate>Mon, 25 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://EthanYGao.github.io/publication/cvpr19_nddr/</guid>
       <description></description>
     </item>
     
