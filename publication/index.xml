@@ -12,6 +12,24 @@
     
     
     <item>
+      <title>DMTG: One-Shot Differentiable Multi-Task Grouping.</title>
+      <link>https://EthanYGao.github.io/publication/icml24_dmtg/</link>
+      <pubDate>Thu, 02 May 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://EthanYGao.github.io/publication/icml24_dmtg/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Efficient Denoising Diffusion via Probabilistic Masking.</title>
+      <link>https://EthanYGao.github.io/publication/icml24_efficient/</link>
+      <pubDate>Thu, 02 May 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://EthanYGao.github.io/publication/icml24_efficient/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Anchor-based Robust Finetuning of Vision-Language Models.</title>
       <link>https://EthanYGao.github.io/publication/cvpr24_anchor/</link>
       <pubDate>Wed, 28 Feb 2024 00:00:00 +0000</pubDate>
