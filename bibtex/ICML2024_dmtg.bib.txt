@@ -1,0 +1,6 @@
+@inproceedings{gao2024dmtg,
+  title={DMTG: One-Shot Differentiable Multi-Task Grouping},
+  author={Yuan Gao and Shuguo Jiang and Moran Li and Jin-Gang Yu and Gui-Song Xia},
+  year={2024},
+  booktitle = {International Conference on Machine Learning (ICML)}
+}
