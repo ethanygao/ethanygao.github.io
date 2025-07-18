@@ -3,8 +3,17 @@
     
     
     <url>
-      <loc>https://EthanYGao.github.io/post/icml24/</loc>
-      <lastmod>2024-05-02T00:00:00+00:00</lastmod>
+      <loc>https://EthanYGao.github.io/post/2507papers/</loc>
+      <lastmod>2025-07-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+      <loc>https://EthanYGao.github.io/</loc>
+      <lastmod>2025-07-01T00:00:00+00:00</lastmod>
+      <priority>0</priority>
     </url>
     
   
@@ -12,8 +21,41 @@
     
     <url>
       <loc>https://EthanYGao.github.io/publication_types/1/</loc>
-      <lastmod>2024-05-02T00:00:00+00:00</lastmod>
+      <lastmod>2025-06-26T00:00:00+00:00</lastmod>
       <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+      <loc>https://EthanYGao.github.io/publication/iccv25_fuse/</loc>
+      <lastmod>2025-06-26T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+      <loc>https://EthanYGao.github.io/publication_types/</loc>
+      <lastmod>2025-06-26T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+      <loc>https://EthanYGao.github.io/publication/acl25_bypass/</loc>
+      <lastmod>2025-05-02T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+      <loc>https://EthanYGao.github.io/post/icml24/</loc>
+      <lastmod>2024-05-02T00:00:00+00:00</lastmod>
     </url>
     
   
@@ -30,24 +72,6 @@
     <url>
       <loc>https://EthanYGao.github.io/publication/icml24_efficient/</loc>
       <lastmod>2024-05-02T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-      <loc>https://EthanYGao.github.io/publication_types/</loc>
-      <lastmod>2024-05-02T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-      <loc>https://EthanYGao.github.io/</loc>
-      <lastmod>2024-05-02T00:00:00+00:00</lastmod>
-      <priority>0</priority>
     </url>
     
   

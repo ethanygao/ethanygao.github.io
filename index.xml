@@ -5,8 +5,35 @@
     <description>Recent content in Welcome to Yuan Gao&#39;s Homepage on Welcome to Yuan Gao&#39;s Homepage</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 02 May 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 01 Jul 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title></title>
+      <link>https://EthanYGao.github.io/post/2507papers/</link>
+      <pubDate>Tue, 01 Jul 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://EthanYGao.github.io/post/2507papers/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Fuse Before Transfer: Knowledge Fusion for Heterogeneous Distillation.</title>
+      <link>https://EthanYGao.github.io/publication/iccv25_fuse/</link>
+      <pubDate>Thu, 26 Jun 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://EthanYGao.github.io/publication/iccv25_fuse/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Bypass Back-propagation: Optimization-based Structural Pruning for Large Language Models via Policy Gradient.</title>
+      <link>https://EthanYGao.github.io/publication/acl25_bypass/</link>
+      <pubDate>Fri, 02 May 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://EthanYGao.github.io/publication/acl25_bypass/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title></title>
@@ -113,33 +140,6 @@
       <pubDate>Mon, 28 Mar 2022 00:00:00 +0000</pubDate>
       
       <guid>https://EthanYGao.github.io/publication/aistats22/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Exploiting Learnable Joint Groups for Hand Pose Estimation.</title>
-      <link>https://EthanYGao.github.io/publication/aaai21/</link>
-      <pubDate>Tue, 02 Feb 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://EthanYGao.github.io/publication/aaai21/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>TileGAN: Category-oriented Attention-based High-quality Tiled Clothes Generation from Dressed Person.</title>
-      <link>https://EthanYGao.github.io/publication/nca20/</link>
-      <pubDate>Fri, 08 May 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://EthanYGao.github.io/publication/nca20/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://EthanYGao.github.io/post/cvpr2020/</link>
-      <pubDate>Tue, 31 Mar 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://EthanYGao.github.io/post/cvpr2020/</guid>
       <description></description>
     </item>
     

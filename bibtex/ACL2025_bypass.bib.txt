@@ -1,0 +1,6 @@
+@inproceedings{gao2025bypass,
+  title={Bypass Back-propagation: Optimization-based Structural Pruning for Large Language Models via Policy Gradient},
+  author={Yuan Gao and Zujing Liu and Weizhong Zhang and Bo Du and Gui-Song Xia},
+  year={2025},
+  booktitle = {The Annual Meeting of the Association for Computational Linguistics (ACL)}
+}

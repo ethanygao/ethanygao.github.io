@@ -6,10 +6,28 @@
     <description>Recent content in 1 on Welcome to Yuan Gao&#39;s Homepage</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 02 May 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 26 Jun 2025 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://EthanYGao.github.io/publication_types/1/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Fuse Before Transfer: Knowledge Fusion for Heterogeneous Distillation.</title>
+      <link>https://EthanYGao.github.io/publication/iccv25_fuse/</link>
+      <pubDate>Thu, 26 Jun 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://EthanYGao.github.io/publication/iccv25_fuse/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Bypass Back-propagation: Optimization-based Structural Pruning for Large Language Models via Policy Gradient.</title>
+      <link>https://EthanYGao.github.io/publication/acl25_bypass/</link>
+      <pubDate>Fri, 02 May 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://EthanYGao.github.io/publication/acl25_bypass/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>DMTG: One-Shot Differentiable Multi-Task Grouping.</title>

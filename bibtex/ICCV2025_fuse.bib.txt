@@ -1,0 +1,6 @@
+@inproceedings{li2025fuse,
+  title={Fuse Before Transfer: Knowledge Fusion for Heterogeneous Distillation},
+  author={Guopeng Li and Qiang Wang and Ke Yan and Shouhong Ding and Yuan Gao and Gui-Song Xia},
+  year={2025},
+  booktitle = {IEEE/CVF International Conference on Computer Vision (ICCV)}
+}

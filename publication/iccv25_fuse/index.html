@@ -34,11 +34,11 @@
   <link rel="icon" type="image/png" href="/img/icon.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/apple-touch-icon.png">
 
-  <link rel="canonical" href="https://EthanYGao.github.io/publication/icml24_dmtg/">
+  <link rel="canonical" href="https://EthanYGao.github.io/publication/iccv25_fuse/">
 
   
 
-  <title>DMTG: One-Shot Differentiable Multi-Task Grouping. | Welcome to Yuan Gao&#39;s Homepage</title>
+  <title>Fuse Before Transfer: Knowledge Fusion for Heterogeneous Distillation. | Welcome to Yuan Gao&#39;s Homepage</title>
 
 </head>
 <body id="top" data-spy="scroll" data-target="#navbar-main" data-offset="71">
@@ -111,10 +111,10 @@
   
 
   <div class="container pub-title">
-    <h1 itemprop="name">DMTG: One-Shot Differentiable Multi-Task Grouping.</h1>
+    <h1 itemprop="name">Fuse Before Transfer: Knowledge Fusion for Heterogeneous Distillation.</h1>
     <span class="pub-authors" itemprop="author">
       
-      <font color=#0099ff>Yuan Gao</font>, Shuguo Jiang, Moran Li, Jin-Gang Yu, and Gui-Song Xia.
+      Guopeng Li, Qiang Wang, Ke Yan, Shouhong Ding, <font color=#0099ff>Yuan Gao</font><code>^</code>, and Gui-Song Xia<code>^</code>. (<code>^</code> indicates corresponding authors)
       
     </span>
     <span class="pull-right">
@@ -123,35 +123,35 @@
   <ul class="share">
     <li>
       <a class="facebook"
-         href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fEthanYGao.github.io%2fpublication%2ficml24_dmtg%2f"
+         href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fEthanYGao.github.io%2fpublication%2ficcv25_fuse%2f"
          target="_blank">
         <i class="fa fa-facebook"></i>
       </a>
     </li>
     <li>
       <a class="twitter"
-         href="https://twitter.com/intent/tweet?text=DMTG%3a%20One-Shot%20Differentiable%20Multi-Task%20Grouping.&amp;url=https%3a%2f%2fEthanYGao.github.io%2fpublication%2ficml24_dmtg%2f"
+         href="https://twitter.com/intent/tweet?text=Fuse%20Before%20Transfer%3a%20Knowledge%20Fusion%20for%20Heterogeneous%20Distillation.&amp;url=https%3a%2f%2fEthanYGao.github.io%2fpublication%2ficcv25_fuse%2f"
          target="_blank">
         <i class="fa fa-twitter"></i>
       </a>
     </li>
     <li>
       <a class="linkedin"
-         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fEthanYGao.github.io%2fpublication%2ficml24_dmtg%2f&amp;title=DMTG%3a%20One-Shot%20Differentiable%20Multi-Task%20Grouping."
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fEthanYGao.github.io%2fpublication%2ficcv25_fuse%2f&amp;title=Fuse%20Before%20Transfer%3a%20Knowledge%20Fusion%20for%20Heterogeneous%20Distillation."
          target="_blank">
         <i class="fa fa-linkedin"></i>
       </a>
     </li>
     <li>
       <a class="weibo"
-         href="http://service.weibo.com/share/share.php?url=https%3a%2f%2fEthanYGao.github.io%2fpublication%2ficml24_dmtg%2f&amp;title=DMTG%3a%20One-Shot%20Differentiable%20Multi-Task%20Grouping."
+         href="http://service.weibo.com/share/share.php?url=https%3a%2f%2fEthanYGao.github.io%2fpublication%2ficcv25_fuse%2f&amp;title=Fuse%20Before%20Transfer%3a%20Knowledge%20Fusion%20for%20Heterogeneous%20Distillation."
          target="_blank">
         <i class="fa fa-weibo"></i>
       </a>
     </li>
     <li>
       <a class="email"
-         href="mailto:?subject=DMTG%3a%20One-Shot%20Differentiable%20Multi-Task%20Grouping.&amp;body=https%3a%2f%2fEthanYGao.github.io%2fpublication%2ficml24_dmtg%2f">
+         href="mailto:?subject=Fuse%20Before%20Transfer%3a%20Knowledge%20Fusion%20for%20Heterogeneous%20Distillation.&amp;body=https%3a%2f%2fEthanYGao.github.io%2fpublication%2ficcv25_fuse%2f">
         <i class="fa fa-envelope"></i>
       </a>
     </li>
@@ -168,7 +168,7 @@
   
 
   <h3>Abstract</h3>
-  <p class="pub-abstract" itemprop="text">We aim to address Multi-Task Learning (MTL) with a large number of tasks by Multi-Task Grouping (MTG). Given N tasks, we propose to simultaneously identify the best task groups from 2^N candidates and train the model weights simultaneously in one-shot, with the high-order task-affinity fully exploited. This is distinct from the pioneering methods which sequentially identify the groups and train the model weights, where the group identification often relies on heuristics. As a result, our method not only improves the training efficiency, but also mitigates the objective bias introduced by the sequential procedures that potentially lead to a suboptimal solution. Specifically, we formulate MTG as a fully differentiable pruning problem on an adaptive network architecture determined by an underlying Categorical distribution. To categorize N tasks into K groups (represented by K encoder branches), we initially set up KN task heads, where each branch connects to all N task heads to exploit the high-order task-affinity. Then, we gradually prune the KN heads down to N by learning a relaxed differentiable Categorical distribution, ensuring that each task is exclusively and uniquely categorized into only one branch. Extensive experiments on CelebA and Taskonomy datasets with detailed ablations show the promising performance and efficiency of our method. The codes are available at https://github.com/ethanygao/DMTG.</p>
+  <p class="pub-abstract" itemprop="text"></p>
 
   
   <div class="row">
@@ -195,7 +195,7 @@
     <div class="col-sm-10">
       <div class="row">
         <div class="col-xs-12 col-sm-3 pub-row-heading">Publication</div>
-        <div class="col-xs-12 col-sm-9"><em>International Conference on Machine Learning (ICML)</em>, 2024.</div>
+        <div class="col-xs-12 col-sm-9"><em>IEEE/CVF International Conference on Computer Vision (ICCV)</em>, 2025.</div>
       </div>
     </div>
     <div class="col-sm-1"></div>
@@ -208,7 +208,7 @@
       <div class="row">
         <div class="col-xs-12 col-sm-3 pub-row-heading">Date</div>
         <div class="col-xs-12 col-sm-9" itemprop="datePublished">
-          May, 2024
+          June, 2025
         </div>
       </div>
     </div>
@@ -228,32 +228,24 @@
 
 
 
-<a class="btn btn-primary btn-outline" href="https://EthanYGao.github.io/pdf/ICML2024_dmtg.pdf">
+<a class="btn btn-primary btn-outline" href="https://EthanYGao.github.io/pdf/ICCV25_fuse.pdf">
   PDF
 </a>
 
 
-<a class="btn btn-primary btn-outline" href="https://EthanYGao.github.io/bibtex/ICML2024_dmtg.bib.txt">
+<a class="btn btn-primary btn-outline" href="https://EthanYGao.github.io/bibtex/ICCV2025_fuse.bib.txt">
   BibTex
 </a>
 
 
-<a class="btn btn-primary btn-outline" href="https://github.com/ethanygao/DMTG">
-  Code
-</a>
 
 
 
 
 
 
-
-<a class="btn btn-primary btn-outline" href="https://arxiv.org/abs/2407.05082">
+<a class="btn btn-primary btn-outline" href="https://arxiv.org/abs/2410.12342">
   arXiv
-</a>
-
-<a class="btn btn-primary btn-outline" href="https://EthanYGao.github.io/pdf/poster/DMTG-poster.pdf">
-  Poster
 </a>
 
 
@@ -274,13 +266,10 @@
   <nav>
   <ul class="pager">
     
-    <li class="previous"><a href="https://EthanYGao.github.io/publication/icml24_efficient/"><span
-      aria-hidden="true">&larr;</span> Efficient Denoising Diffusion via Probabilistic Masking.</a></li>
+    <li class="previous"><a href="https://EthanYGao.github.io/publication/acl25_bypass/"><span
+      aria-hidden="true">&larr;</span> Bypass Back-propagation: Optimization-based Structural Pruning for Large Language Models via Policy Gradient.</a></li>
     
 
-    
-    <li class="next"><a href="https://EthanYGao.github.io/publication/acl25_bypass/">Bypass Back-propagation: Optimization-based Structural Pruning for Large Language Models via Policy Gradient. <span
-      aria-hidden="true">&rarr;</span></a></li>
     
   </ul>
 </nav>
