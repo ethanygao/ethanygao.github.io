@@ -1,0 +1,6 @@
+@article{gao2025towards,
+  title={Towards Human-Level 3D Relative Pose Estimation: Generalizable, Training-Free, with Single Reference},
+  author={Yuan Gao and Yajing Luo and Junhong Wang and Kui Jia and Gui-Song Xia},
+  year={2025},
+  journal={IEEE Transactions on Pattern Analysis and Machine Intelligence (IEEE TPAMI)}
+}

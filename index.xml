@@ -5,8 +5,26 @@
     <description>Recent content in Welcome to Yuan Gao&#39;s Homepage on Welcome to Yuan Gao&#39;s Homepage</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 01 Jul 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 05 Aug 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title></title>
+      <link>https://EthanYGao.github.io/post/2508papers/</link>
+      <pubDate>Tue, 05 Aug 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://EthanYGao.github.io/post/2508papers/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Towards Human-Level 3D Relative Pose Estimation: Generalizable, Training-Free, with Single Reference.</title>
+      <link>https://EthanYGao.github.io/publication/tpami25_towards/</link>
+      <pubDate>Tue, 05 Aug 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://EthanYGao.github.io/publication/tpami25_towards/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title></title>
@@ -122,24 +140,6 @@
       <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
       
       <guid>https://EthanYGao.github.io/publication/jas24/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://EthanYGao.github.io/post/joinwhu/</link>
-      <pubDate>Thu, 01 Dec 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://EthanYGao.github.io/post/joinwhu/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Finding Dynamics Preserving Adversarial Winning Tickets.</title>
-      <link>https://EthanYGao.github.io/publication/aistats22/</link>
-      <pubDate>Mon, 28 Mar 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://EthanYGao.github.io/publication/aistats22/</guid>
       <description></description>
     </item>
     
