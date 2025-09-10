@@ -1,0 +1,6 @@
+@article{chen2025rest,
+  title={REST: Holistic Learning for End-to-End Semantic Segmentation of Whole-Scene Remote Sensing Imagery},
+  author={Wei Chen and Lorenzo Bruzzone and Bo Dang and Yuan Gao and Youming Deng and Jin-Gang Yu and Liangqi Yuan and Yansheng Li},
+  year={2025},
+  journal={IEEE Transactions on Pattern Analysis and Machine Intelligence (IEEE TPAMI)}
+}
