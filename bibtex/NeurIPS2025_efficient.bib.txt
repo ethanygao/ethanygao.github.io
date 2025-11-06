@@ -1,0 +1,6 @@
+@inproceedings{cheng2025efficient,
+  title={Efficient Representativeness-Aware Coreset Selection},
+  author={Zihao Cheng and Binrui Wu and Zhiwei Li and Yuesen Liao and Su Zhao and Shuai Chen and Yuan Gao and Weizhong Zhang},
+  year={2025},
+  booktitle = {Neural Information Processing Systems (NeurIPS)}
+}
