@@ -1,0 +1,279 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="color-scheme" content="dark">
+<title>GPU 租赁 · 价格与供给</title>
+<style>
+:root{--bg:#080f18;--panel:#101c2a;--line:#263546;--text:#e7eef5;--muted:#8b9db1;--mint:#8ae3c0;--blue:#7ab6f5;--amber:#f6c780;--red:#ef999f}*{box-sizing:border-box}body{margin:0;background:radial-gradient(ellipse at 10% 0,#152b3e 0,transparent 48%),var(--bg);color:var(--text);font:14px -apple-system,BlinkMacSystemFont,"PingFang SC",sans-serif}main{max-width:1500px;margin:auto;padding:36px 30px 60px}a{color:var(--blue);text-decoration:none}a:hover{text-decoration:underline}h1,h2,p{margin:0}h1{font-size:40px;letter-spacing:-1.5px;margin:10px 0 14px}h2{font-size:18px;letter-spacing:-.3px}.eyebrow{color:var(--mint);font-size:11px;letter-spacing:2px}.sub,.muted{color:var(--muted);line-height:1.7}.header{display:flex;justify-content:space-between;gap:25px;align-items:flex-end}.meta{white-space:pre-line;text-align:right;font-size:11px;line-height:1.8;color:var(--muted)}.notice{margin:24px 0;padding:14px 18px;border:1px solid #40503b;background:#182a24;border-radius:12px;line-height:1.7;color:#c2d8cb;font-size:12px}.tools{display:flex;gap:16px;align-items:end;flex-wrap:wrap;margin:24px 0 18px}label{display:grid;gap:8px;color:var(--muted);font-size:11px}select,input,button{font:inherit;color:var(--text);border:1px solid var(--line);background:#101e2c;border-radius:8px;padding:9px 12px}select{min-width:125px}input{min-width:220px}button{cursor:pointer}button:hover,button.active{border-color:var(--mint);background:#1c3b37}button:disabled{opacity:.4;cursor:default}.cards{display:grid;grid-template-columns:repeat(7,minmax(0,1fr));gap:12px}.card{background:linear-gradient(130deg,#16283a,#101d2c);border:1px solid var(--line);border-radius:14px;padding:18px;text-align:left;cursor:pointer;min-height:148px}.card.active{border-color:var(--mint)}.card-title{display:flex;flex-wrap:wrap;justify-content:space-between;gap:8px;font-size:13px}.badge{color:var(--muted);font-size:10px}.price{font-size:30px;letter-spacing:-1px;margin:17px 0 10px;font-weight:650}.small{font-size:11px;line-height:1.65}.up{color:var(--red)}.down{color:var(--mint)}.section{margin-top:27px}.panel{background:rgba(15,26,40,.95);border:1px solid var(--line);border-radius:15px;padding:22px;min-width:0}.panel-head{display:flex;align-items:center;justify-content:space-between;gap:16px;margin-bottom:15px}.panel-head p{margin-top:6px}.grid{display:grid;grid-template-columns:1fr;gap:14px}.chartbox.trend-chart{height:380px}.snapshot-stats{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:18px}.snapshot-stats .stat{display:grid;gap:8px;border:0}.snapshot-stats .stat b{font-size:18px}.card-dot{display:inline-block;width:8px;height:8px;margin-right:6px;border-radius:50%}.range{display:flex;gap:5px;flex-wrap:wrap}.range button{font-size:11px;padding:6px 9px}.chartbox{height:310px;position:relative}.chartbox.small-chart{height:230px}svg{width:100%;height:100%;overflow:visible}.tip{position:absolute;z-index:9;background:#07111af5;border:1px solid #527083;padding:10px 12px;border-radius:8px;font-size:11px;line-height:1.7;pointer-events:none;max-width:260px;box-shadow:0 7px 25px #0008}.tip[hidden]{display:none}.legend{display:flex;gap:14px;flex-wrap:wrap;font-size:11px;color:var(--muted);line-height:1.7;margin:8px 0}.legend i{display:inline-block;width:8px;height:8px;border-radius:50%;margin-right:5px}.footnote{font-size:11px;color:var(--muted);line-height:1.75;margin-top:12px}.stat{padding:15px 0;border-bottom:1px solid var(--line);display:flex;justify-content:space-between;gap:20px}.stat b{font-size:19px;font-weight:600}.stat:last-child{border:0}.table-wrap{overflow:auto;border-radius:9px}table{width:100%;border-collapse:collapse;font-size:12px;white-space:nowrap}th{text-align:left;color:var(--muted);font-size:10px;font-weight:500;background:#142334;position:sticky;top:0}td,th{padding:12px 14px;border-bottom:1px solid var(--line)}td.num,th.num{text-align:right;font-variant-numeric:tabular-nums}tr.quote{cursor:pointer}tr.quote:hover{background:#1b3040}.summary{font-size:12px;color:var(--muted);display:flex;gap:25px;flex-wrap:wrap;margin:15px 0}.summary b{color:var(--text);margin-left:5px}.pager{display:flex;justify-content:space-between;align-items:center;margin-top:15px;font-size:11px;color:var(--muted)}.method{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}.method h3{font-size:13px;margin:0 0 9px}.method p{font-size:12px;line-height:1.8;color:var(--muted)}details{margin-top:16px;color:var(--muted);font-size:11px;line-height:1.7}summary{cursor:pointer}footer{margin-top:22px;color:var(--muted);font-size:11px;line-height:1.8}.empty{padding:30px;text-align:center;color:var(--muted)}.quote-history{margin-top:18px;padding-top:18px;border-top:1px solid var(--line)}.cost{color:var(--amber)}@media(max-width:1250px){.cards{grid-template-columns:repeat(4,minmax(0,1fr))}}@media(max-width:1050px){.snapshot-stats{grid-template-columns:repeat(3,minmax(0,1fr))}.cards{grid-template-columns:repeat(3,minmax(0,1fr))}.grid{grid-template-columns:1fr}.method{grid-template-columns:1fr}.header{align-items:start}.meta{max-width:240px}}@media(max-width:650px){.snapshot-stats{grid-template-columns:repeat(2,minmax(0,1fr))}.chartbox.trend-chart{height:330px}main{padding:24px 14px 40px}h1{font-size:30px}.header{display:block}.meta{text-align:left;max-width:none;margin-top:15px}.cards{grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}.card{padding:14px}.price{font-size:26px}.panel{padding:16px}.panel-head{align-items:start;flex-direction:column}.tools{gap:10px}select{min-width:110px}input{min-width:160px}.chartbox{height:260px}td,th{padding:10px}.badge{font-size:9px}}
+</style>
+</head>
+<body><main>
+<header class="header"><div><div class="eyebrow">GPU RENTAL · PRICE OBSERVATORY</div><h1>GPU 租赁价格与供给</h1><p class="sub">聚焦 GB300、B300、B200、H200、H100、A100、RTX Pro 6000，以美元 / GPU·小时对照七种卡的租赁走势。</p></div><div class="meta" id="metadata"></div></header>
+<p class="notice" id="pages-entry">实时数据由 Windows 更新。<a href="https://dashboards.yuan-gao.net/gpu/">打开实时看板并登录</a></p>
+<div id="live-view" hidden>
+<div class="notice" id="notice">正在读取最近的采集结果…</div>
+<p class="muted small" id="live-status" role="status"></p>
+<div class="tools"><label>租约类型<select id="lease"><option value="spot">现货 Spot</option><option value="ondemand">按需 On-demand</option><option value="reserved">预留 Reserved</option><option value="capacity_block">Capacity Block</option></select></label><span class="muted small">七种卡的走势同图展示；点击卡片查看该卡快照与报价。红色表示价格上涨，绿色表示价格下降。</span></div>
+<div class="cards" id="cards"></div>
+<section class="section grid"><article class="panel"><div class="panel-head"><div><h2 id="trend-title">价格趋势</h2><p class="muted small" id="trend-subtitle"></p></div><div class="range" id="ranges"><button data-days="30">1M</button><button data-days="90">3M</button><button data-days="365" class="active">1Y</button><button data-days="0">全部</button></div></div><div class="range"><button id="price-mode" class="active">美元 / 卡时</button><button id="change-mode">区间涨跌幅</button></div><div class="chartbox trend-chart"><svg id="trend" viewBox="0 0 900 300" preserveAspectRatio="xMinYMin meet" aria-label="GPU租赁价格趋势" role="img"></svg><div class="tip" id="trend-tip" hidden></div></div><div class="legend" id="trend-legend"></div><p class="footnote" id="trend-note"></p></article><aside class="panel"><h2 id="snapshot-title">当前卡型快照</h2><div id="stats" class="snapshot-stats"></div><p class="footnote">指数由 FUNDA 按同口径厂商与地区的价格变动链式衔接计算；它用于观察价格趋势，不能保证能以指数价格租到机器。</p></aside></section>
+<section class="section panel"><div class="panel-head"><div><h2>大云与新型云 · 现货价差</h2><p class="muted small">同一卡型的分组指数；新型云组含算力交易平台。显示关注卡型中已有分组数据的六种；源站未提供 GB300 分组指数。</p></div><label>卡型<select id="gap-gpu"></select></label></div><div class="chartbox small-chart"><svg id="gap" viewBox="0 0 900 250" preserveAspectRatio="xMinYMin meet" aria-label="大云与新型云价格" role="img"></svg><div class="tip" id="gap-tip" hidden></div></div><div class="legend"><span><i style="background:#7ab6f5"></i>大云现货指数</span><span><i style="background:#8ae3c0"></i>新型云现货指数</span></div><p class="footnote">悬停查看两组价格和价差。折扣 = 1 − 新型云指数 ÷ 大云指数；负数表示新型云更贵。缺失日不补值。</p></section>
+<section class="section panel"><div class="panel-head"><div><h2>厂商报价全景</h2><p class="muted small" id="quote-asof"></p></div><button id="download">导出筛选结果 CSV</button></div><div class="tools"><label>卡型<select id="quote-gpu"></select></label><label>厂商类别<select id="type"><option value="">全部类别</option><option value="hyperscaler">大云</option><option value="neocloud">新型云</option><option value="marketplace">算力交易平台</option></select></label><label>报价口径<select id="derived"><option value="">全部（标明折算）</option><option value="direct">源报价</option><option value="derived">仅折算价</option></select></label><label>厂商 / 地区 / 机型<input id="search" placeholder="例如 aws / us-east / SXM"></label><label>排序<select id="sort"><option value="price">价格从低到高</option><option value="desc">价格从高到低</option><option value="vendor">厂商名称</option></select></label></div><div class="summary" id="quote-summary"></div><div class="table-wrap"><table><thead><tr><th>厂商</th><th>卡型 / 机型</th><th>类别</th><th>租约 / 租期</th><th>地区</th><th class="num">$/GPU·小时</th><th class="num">730 小时估算</th><th>口径</th></tr></thead><tbody id="quotes"></tbody></table></div><div class="pager"><span id="page-label"></span><div><button id="prev">上一页</button> <button id="next">下一页</button></div></div><p class="footnote">报价为 FUNDA 收集的当前快照，不能保证可用库存；显存、互连、CPU、内存、地区与租期可能不同。表格每行按源站单张 GPU 口径计；现货表包含源站标注的现货条目，部分价格可能与按需相同。730 小时仅作价格 × 时长估算，不含税费、存储、流量与额外服务，也不代表能够连续租满。点击报价行查看已有历史。</p><div class="quote-history"><h2 id="quote-history-title">报价历史</h2><p class="footnote" id="quote-history-note">选择表格中的一条报价。</p><div class="chartbox small-chart"><svg id="quote-chart" viewBox="0 0 900 250" preserveAspectRatio="xMinYMin meet" aria-label="单条报价历史" role="img"></svg><div class="tip" id="quote-tip" hidden></div></div></div></section>
+<section class="section panel"><h2 style="margin-bottom:18px">怎么读这张看板</h2><div class="method"><div><h3>价格指数与租赁报价分开看</h3><p>上方指数表示同口径价格趋势，下方报价保留具体厂商、地区、机型与租约。现货可中断性、承诺期和可用库存影响可比性；不同卡的每卡价格也不等于单位算力成本。</p></div><div><h3>数据日期与抓取时间分开看</h3><p>指数日线与报价快照可能在不同时间发布。页面保留 FUNDA 的源版本和生成时间；若不同数据集同日价格不一致，拒绝覆盖已有看板，等待下一次更新。</p></div><div><h3>历史值不自行补造</h3><p>本页不插值、不把缺失当零。源站可能有延用观测或公式折算，报价历史悬停会显示源记录的参考日期；已有平台历史不代表每天都有新的成交或新的报价。</p></div></div><details><summary>数据源与核验记录</summary><div id="sources"></div></details></section>
+<footer>数据来源：<a href="https://funda.ai/zh/play/gpu-spot-price?ref=chat_catalog" target="_blank" rel="noopener noreferrer">FUNDA · GPU Rental Price Tracker</a>。本页为公开数据的观察与比较，不提供库存、下单或交易服务。<br>页面每 5 秒检查更新，数据时间取决于采集进度。</footer>
+</div></main>
+<script>
+const initialSnapshot = null; // native-template-data
+const liveView = location.origin === 'https://dashboards.yuan-gao.net'
+ || location.pathname === '/stocks/gpu-dashboard.html'
+ || ['127.0.0.1', 'localhost', '[::1]'].includes(location.hostname);
+let data = null;
+let snapshotTag = null;
+let nextPoll = null;
+let pollInFlight = false;
+const $=id=>document.getElementById(id);
+// User-selected scope and fixed colours are shared by cards, lines and legends.
+const gpus=['GB300','B300','B200','H200','H100','A100','RTX PRO 6000'];
+const colors=['#8ae3c0','#7ab6f5','#f6c780','#d6a4f6'];
+const gpuColors={'GB300':'#d6a4f6','B300':'#ffad72','B200':'#f5d76e','H200':'#7ab6f5','H100':'#8ae3c0','A100':'#ef999f','RTX PRO 6000':'#63d8ed'};
+const gpuName=gpu=>gpu==='RTX PRO 6000'?'RTX Pro 6000':gpu;
+const leases={spot:'现货',ondemand:'按需',reserved:'预留',capacity_block:'Capacity Block'};
+const types={hyperscaler:'大云',neocloud:'新型云',marketplace:'交易平台'};
+const names={aws:'AWS',gcp:'GCP',azure:'Azure',runpod:'RunPod',datacrunch:'DataCrunch',nebius:'Nebius',coreweave:'CoreWeave',vastai:'Vast.ai',spheron:'Spheron',lambda:'Lambda',oracle:'Oracle',hyperstack:'Hyperstack'};
+let active='H100',days=365,mode='price',page=0,selectedQuote=null;
+const esc=value=>String(value??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const money=value=>Number.isFinite(value)?'$'+value.toLocaleString('en-US',{minimumFractionDigits:2,maximumFractionDigits:4}):'—';
+const pct=value=>Number.isFinite(value)?(value>=0?'+':'')+value.toFixed(1)+'%':'—';
+const vendor=value=>names[value]||value;
+const stamp=day=>Date.parse(day+'T00:00:00Z');
+function addDays(day,n){return new Date(stamp(day)+n*86400000).toISOString().slice(0,10);}
+function currentSeries(){return gpus.map(gpu=>data.series.find(s=>s.gpu===gpu&&s.lease===$('lease').value)).filter(Boolean);}
+function latest(s){return s?.points.findLast(p=>Number.isFinite(p[1]));}
+function change(s,n){const end=latest(s);if(!end)return null;const before=s.points.find(p=>p[0]===addDays(end[0],-n));return before&&before[1]>0?(end[1]/before[1]-1)*100:null;}
+function options(element,values,all=false){const old=element.value;element.innerHTML=(all?'<option value="">全部卡型</option>':'')+values.map(v=>'<option value="'+esc(v)+'">'+esc(gpuName(v))+'</option>').join('');if(values.includes(old))element.value=old;}
+function visible(points){if(!days||!points.length)return points;const cutoff=addDays(data.indexThrough,-days);return points.filter(p=>p[0]>=cutoff);}
+function chart(svgId,tipId,series,unit,detail){
+ const svg=$(svgId),tip=$(tipId);tip.hidden=true;svg.onmousemove=null;svg.onmouseleave=null;
+ // Match SVG units to CSS pixels so text and markers never stretch with the panel.
+ const bounds=svg.getBoundingClientRect();
+ const W=bounds.width||900,H=bounds.height||(svgId==='trend'?300:250);
+ svg.setAttribute('viewBox',`0 0 ${W} ${H}`);
+ const pad={l:70,r:16,t:18,b:32},pw=W-pad.l-pad.r,ph=H-pad.t-pad.b;
+ const dates=[...new Set(series.flatMap(s=>s.points.map(p=>p[0])))].sort();
+ const values=series.flatMap(s=>s.points.map(p=>p[1])).filter(Number.isFinite);
+ if(!values.length){svg.innerHTML=`<text x="${W/2}" y="${H/2}" text-anchor="middle" fill="#8b9db1" font-size="12">当前条件暂无可核验数据</text>`;return;}
+ const low=Math.min(...values),high=Math.max(...values),extra=Math.max((high-low)*.15,Math.abs(high)*.002,.005),min=low-extra,max=high+extra;
+ const start=stamp(dates[0]),span=Math.max(86400000,stamp(dates.at(-1))-start);
+ const x=day=>pad.l+(stamp(day)-start)/span*pw,y=value=>pad.t+(max-value)/(max-min)*ph;
+ const digits=unit==='%'?Math.max(1,Math.min(5,Math.ceil(-Math.log10((max-min)/3))+1)):Math.max(2,Math.min(6,Math.ceil(-Math.log10((max-min)/3))+1));
+ const axis=value=>unit==='%'?value.toFixed(digits)+'%':'$'+value.toFixed(digits);
+ let grid=[0,1,2,3].map(i=>{const value=max-i*(max-min)/3,yy=y(value);return `<line x1="${pad.l}" x2="${W-pad.r}" y1="${yy}" y2="${yy}" stroke="#263546"/><text x="${pad.l-10}" y="${yy+3}" fill="#8b9db1" font-size="12" text-anchor="end">${axis(value)}</text>`;}).join('');
+ const tickDates=pw<400?[dates[0],dates.at(-1)]:[dates[0],dates[Math.floor((dates.length-1)/2)],dates.at(-1)];
+ const labels=[...new Set(tickDates)].map((d,i)=>`<text x="${x(d)}" y="${H-7}" fill="#8b9db1" font-size="12" text-anchor="${i===0?'start':d===dates.at(-1)?'end':'middle'}">${d}</text>`).join('');
+ let marks='';
+ series.forEach(s=>{
+  let connected=false;
+  const path=s.points.map(p=>{
+   if(!Number.isFinite(p[1])){connected=false;return '';}
+   let command='M';
+   if(connected)command=s.step?`H${x(p[0]).toFixed(2)} V`:'L';
+   const position=s.step&&connected?y(p[1]).toFixed(2):x(p[0]).toFixed(2)+' '+y(p[1]).toFixed(2);
+   connected=true;return command+position;
+  }).join(' ');
+  if(!path.trim())return;
+  marks+=`<path data-series="${esc(s.name)}" d="${path}" fill="none" stroke="${s.color}" stroke-width="2.2" stroke-linejoin="round"/>`;
+  const end=s.points.findLast(p=>Number.isFinite(p[1]));
+  marks+=`<circle cx="${x(end[0])}" cy="${y(end[1])}" r="3.5" fill="${s.color}"/>`;
+ });
+ const hoverDots=series.map((s,i)=>`<circle id="${svgId}-dot-${i}" r="4" fill="${s.color}" stroke="#080f18" stroke-width="1.5" visibility="hidden"/>`).join('');
+ svg.innerHTML=grid+marks+labels+`<line id="${svgId}-hover" x1="0" x2="0" y1="${pad.t}" y2="${H-pad.b}" stroke="#a9bdce" stroke-dasharray="4 4" visibility="hidden"/>`+hoverDots;
+ const lookup=series.map(s=>new Map(s.points.map(p=>[p[0],p])));
+ svg.onmousemove=event=>{
+  const rect=svg.getBoundingClientRect(),raw=(event.clientX-rect.left)/rect.width*W;
+  const date=dates.reduce((a,b)=>Math.abs(x(b)-raw)<Math.abs(x(a)-raw)?b:a,dates[0]);
+  const line=$(svgId+'-hover');
+  line.setAttribute('x1',x(date));line.setAttribute('x2',x(date));line.setAttribute('visibility','visible');
+  const rows=series.map((s,i)=>{
+   const point=lookup[i].get(date),known=point&&Number.isFinite(point[1]),dot=$(svgId+'-dot-'+i);
+   dot.setAttribute('visibility',known?'visible':'hidden');
+   if(known){dot.setAttribute('cx',x(date));dot.setAttribute('cy',y(point[1]));}
+   let value='缺失';
+   if(known)value=unit==='%'?pct(point[1]):money(point[1]);
+   return `<span style="color:${s.color}">${esc(s.name)}</span>：<b>${value}</b>`;
+  });
+  const label=unit==='%'?'涨跌幅':'美元 / GPU·小时';
+  tip.innerHTML='<b>'+date+'</b> · '+label+'<br>'+rows.join('<br>')+(detail?detail(date):'');
+  tip.hidden=false;
+  tip.style.left=Math.max(5,Math.min(event.clientX-rect.left+12,rect.width-(tip.offsetWidth||245)-5))+'px';
+  tip.style.top=Math.max(5,Math.min(event.clientY-rect.top-40,rect.height-(tip.offsetHeight||200)-5))+'px';
+ };
+ svg.onmouseleave=()=>{
+  tip.hidden=true;$(svgId+'-hover').setAttribute('visibility','hidden');
+  series.forEach((s,i)=>$(svgId+'-dot-'+i).setAttribute('visibility','hidden'));
+ };
+
+}
+function renderCards(){
+ const list=currentSeries();
+ $('cards').innerHTML=gpus.map(gpu=>{
+  const series=list.find(s=>s.gpu===gpu),end=latest(series),c=change(series,7),c30=change(series,30);
+  const observed=end?end[0]+' · '+end[2]+' 家厂商':'暂无该租约指数';
+  return `<button class="card ${active===gpu?'active':''}" data-gpu="${esc(gpu)}" aria-pressed="${active===gpu}"><div class="card-title"><span><i class="card-dot" style="background:${gpuColors[gpu]}"></i>${esc(gpuName(gpu))}</span><span class="badge">${leases[$('lease').value]}指数</span></div><div class="price">${money(end?.[1])}</div><div class="small"><span class="${c>=0?'up':'down'}">7 天 ${pct(c)}</span> <span class="muted"> · 30 天 ${pct(c30)}</span></div><div class="small muted">${observed}</div></button>`;
+ }).join('');
+ $('cards').querySelectorAll('[data-gpu]').forEach(el=>el.onclick=()=>{
+  active=el.dataset.gpu;$('quote-gpu').value=active;page=0;selectedQuote=null;
+  renderCards();renderSnapshot();renderQuotes();renderQuoteHistory();
+ });
+}
+function comparisonSeries(){
+ const list=currentSeries();
+ return gpus.map(gpu=>{
+  const source=list.find(s=>s.gpu===gpu),points=visible(source?.points||[]);
+  const base=points.find(p=>Number.isFinite(p[1]));
+  return {
+   gpu,name:gpuName(gpu),color:gpuColors[gpu],baseDate:base?.[0],
+   points:points.map(p=>[p[0],mode==='change'&&Number.isFinite(p[1])?(p[1]/base[1]-1)*100:p[1]])
+  };
+ });
+}
+function renderTrend(){
+ if(!data)return;
+ const series=comparisonSeries(),dates=[...new Set(series.flatMap(s=>s.points.map(p=>p[0])))].sort();
+ $('trend-title').textContent='七种 GPU · '+leases[$('lease').value]+'价格走势';
+ $('trend-subtitle').textContent=(dates[0]||'—')+' → '+(dates.at(-1)||'—')+' · 同一日期对照 · 缺失不补值';
+ chart('trend','trend-tip',series,mode==='change'?'%':'$',null);
+ $('trend-legend').innerHTML=series.map(s=>{
+  let status='';
+  if(!s.baseDate)status=' · 当前区间无数据';
+  else if(mode==='change')status=' · 基准 '+s.baseDate;
+  return '<span><i style="background:'+s.color+'"></i>'+esc(s.name+status)+'</span>';
+ }).join('');
+ const stale=currentSeries().filter(s=>latest(s)?.[0]<data.indexThrough).map(s=>gpuName(s.gpu)+' '+latest(s)[0]);
+ const absent=gpus.filter(gpu=>!currentSeries().some(s=>s.gpu===gpu));
+ $('trend-note').textContent='七条曲线共用日期与纵轴比例尺，纵轴按所选窗口的数据范围缩放。'+
+  (mode==='change'?'涨跌幅分别以各卡在当前区间的首个有效价格为 0%，基准日期见图例。':'可切换“区间涨跌幅”比较变化速度。')+
+  (stale.length?' 停更记录：'+stale.join('；')+'，曲线停在最后观测日。':'')+
+  (absent.length?' 源站暂无该租约指数：'+absent.map(gpuName).join('、')+'。':'');
+}
+function renderSnapshot(){
+ const series=currentSeries().find(s=>s.gpu===active),end=latest(series);
+ const quotes=data.quotes.filter(q=>q.gpu===active&&q.lease===$('lease').value);
+ const minimum=quotes.length?Math.min(...quotes.map(q=>q.price)):null;
+ $('snapshot-title').textContent=gpuName(active)+' · 当前卡型快照';
+ const stats=[
+  ['最新指数'+(end?' · '+end[0]:''),money(end?.[1])],
+  ['7 天 / 30 天变化',pct(change(series,7))+' / '+pct(change(series,30))],
+  ['当前报价最低值',money(minimum)],
+  ['报价厂商 / 地区数',new Set(quotes.map(q=>q.vendor)).size+' / '+new Set(quotes.map(q=>q.vendor+'|'+q.region)).size],
+  ['每卡 730 小时指数估算',money(end?.[1]*730)]
+ ];
+ $('stats').innerHTML=stats.map(([label,value])=>`<div class="stat"><span class="muted small">${esc(label)}</span><b>${value}</b></div>`).join('');
+}
+function renderGap(){if(!data)return;const s=data.spot.find(s=>s.gpu===$('gap-gpu').value);if(!s)return;const points=s.price.map((v,i)=>[addDays(s.start,i),s.hyperscaler[i],s.neocloud[i]]);const cut=visible(points),lookup=new Map(points.map(p=>[p[0],p]));chart('gap','gap-tip',[{name:'大云',color:colors[1],points:cut.map(p=>[p[0],p[1]])},{name:'新型云（含平台）',color:colors[0],points:cut.map(p=>[p[0],p[2]])}],'$',day=>{const p=lookup.get(day);return '<br>新型云较大云便宜 '+(p?.[1]>0&&p?.[2]!=null?((1-p[2]/p[1])*100).toFixed(1)+'%':'—');});}
+function filteredQuotes(){const q=$('search').value.toLowerCase().trim();return data.quotes.filter(row=>gpus.includes(row.gpu)&&row.lease===$('lease').value&&(!$('quote-gpu').value||row.gpu===$('quote-gpu').value)&&(!$('type').value||row.type===$('type').value)&&(!$('derived').value||row.derived===($('derived').value==='derived'))&&(!q||(vendor(row.vendor)+' '+row.vendor+' '+row.region+' '+row.sku).toLowerCase().includes(q))).sort((a,b)=>{if($('sort').value==='vendor')return a.vendor.localeCompare(b.vendor)||a.price-b.price;if($('sort').value==='desc')return b.price-a.price;return a.price-b.price;});}
+function termLabel(row){
+ if(row.term==null)return leases[row.lease]+' · 租期未提供';
+ if(row.term===0)return leases[row.lease];
+ const terms={30:'1 个月',90:'3 个月',180:'6 个月',365:'1 年',730:'2 年',1095:'3 年',1825:'5 年'};
+ return leases[row.lease]+' · '+(terms[row.term]||row.term+' 天');
+}
+function renderQuotes(){if(!data)return;const rows=filteredQuotes(),slice=rows.slice(page*80,(page+1)*80);$('quote-summary').innerHTML=`<span>筛选报价<b>${rows.length}</b></span><span>厂商<b>${new Set(rows.map(q=>q.vendor)).size}</b></span><span>最低每卡时<b>${rows.length?money(Math.min(...rows.map(q=>q.price))):'—'}</b></span>`;$('quotes').innerHTML=slice.map((q,i)=>`<tr class="quote" tabindex="0" data-row="${i}" aria-label="查看 ${esc(vendor(q.vendor))} ${esc(q.gpu)} 历史"><td>${esc(vendor(q.vendor))}</td><td>${esc(q.gpu)}<br><span class="muted small">${esc(q.sku||'未标机型')}</span></td><td>${types[q.type]}</td><td>${esc(termLabel(q))}</td><td>${esc(q.region||'未标地区')}</td><td class="num">${money(q.price)}</td><td class="num cost">${money(q.price*730)}</td><td>${q.derived?'公式折算':'源报价'}</td></tr>`).join('')||'<tr><td colspan="8" class="empty">没有符合条件的报价</td></tr>';$('page-label').textContent=rows.length?'第 '+(page*80+1)+'–'+Math.min((page+1)*80,rows.length)+' 条，共 '+rows.length+' 条':'0 条';$('prev').disabled=page===0;$('next').disabled=(page+1)*80>=rows.length;$('quotes').querySelectorAll('[data-row]').forEach(el=>{const choose=()=>{selectedQuote=slice[Number(el.dataset.row)];renderQuoteHistory();};el.onclick=choose;el.onkeydown=e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();choose();}};});}
+function quotePoints(q){const record=data.lines.find(l=>l.vendor===q.vendor&&l.gpu===q.gpu&&l.lease===q.lease&&l.term===q.term&&l.derived===q.derived);const line=record?.lines.find(l=>l[0]===q.region&&l[1]===q.sku);if(!line)return [];return line[2].map(([day,value,filled])=>[addDays('2023-01-01',day),value,filled==null?null:addDays('2023-01-01',filled)]);}
+function renderQuoteHistory(){if(!data)return;if(!selectedQuote){$('quote-history-title').textContent='报价历史';$('quote-history-note').textContent='选择表格中的一条报价。';chart('quote-chart','quote-tip',[],'$',null);return;}const q=selectedQuote,points=quotePoints(q);$('quote-history-title').textContent=vendor(q.vendor)+' · '+q.gpu+' · '+(q.region||'未标地区')+' · '+termLabel(q);$('quote-history-note').textContent='仅绘制源站提供的记录：'+(q.sku||'未标机型')+'。'+(points.length?'阶梯线连接相邻记录，不代表期间每天有新报价。':'源站未提供这条报价的历史，不补造曲线。');const cut=visible(points),lookup=new Map(points.map(p=>[p[0],p]));chart('quote-chart','quote-tip',[{name:vendor(q.vendor),color:colors[2],points:cut,step:true}],'$',day=>{const p=lookup.get(day);return '<br>'+esc(q.derived?'公式折算':'源报价')+'<br>源记录参考日期：'+esc(p?.[2]||'未提供');});}
+function refresh(){if(!data)return;renderCards();renderTrend();renderSnapshot();renderGap();renderQuotes();renderQuoteHistory();}
+function csvCell(value){
+ const text=String(value??'');
+ const safe=/^[\s]*[=+@-]/.test(text)?"'"+text:text;
+ return '"'+safe.replace(/"/g,'""')+'"';
+}
+function exportCSV(){
+ if(!data)return;
+ const fields=['vendor','gpu','sku','type','lease','term_days','region','usd_per_gpu_hour','derived','data_date','source'];
+ const lines=filteredQuotes().map(q=>[q.vendor,q.gpu,q.sku,q.type,q.lease,q.term,q.region,q.price,q.derived,data.pricesThrough,data.source].map(csvCell).join(','));
+ const csv='\ufeff'+[fields.join(','),...lines].join('\r\n');
+ const link=document.createElement('a');link.href=URL.createObjectURL(new Blob([csv],{type:'text/csv;charset=utf-8'}));link.download='gpu-quotes-'+data.pricesThrough+'.csv';link.click();URL.revokeObjectURL(link.href);
+}
+$('lease').onchange=()=>{page=0;selectedQuote=null;refresh();};$('gap-gpu').onchange=renderGap;
+['quote-gpu','type','derived','sort'].forEach(id=>$(id).onchange=()=>{page=0;renderQuotes();});$('search').oninput=()=>{page=0;renderQuotes();};$('prev').onclick=()=>{page=Math.max(0,page-1);renderQuotes();};$('next').onclick=()=>{page++;renderQuotes();};$('download').onclick=exportCSV;
+$('ranges').querySelectorAll('[data-days]').forEach(button=>button.onclick=()=>{days=Number(button.dataset.days);$('ranges').querySelectorAll('button').forEach(b=>b.classList.toggle('active',b===button));renderTrend();renderGap();renderQuoteHistory();});
+$('price-mode').onclick=()=>{mode='price';$('price-mode').classList.add('active');$('change-mode').classList.remove('active');renderTrend();};$('change-mode').onclick=()=>{mode='change';$('change-mode').classList.add('active');$('price-mode').classList.remove('active');renderTrend();};
+if(typeof ResizeObserver!=='undefined'){
+ const renderers={trend:renderTrend,gap:renderGap,'quote-chart':renderQuoteHistory};
+ const observer=new ResizeObserver(entries=>{
+  if(data) entries.forEach(entry=>renderers[entry.target.id]());
+ });
+ Object.keys(renderers).forEach(id=>observer.observe($(id)));
+}
+function applySnapshot(snapshot) {
+ const first = data === null;
+ data = snapshot;
+ $('metadata').textContent='指数截至 '+data.indexThrough+' · 报价截至 '+data.pricesThrough+'\n抓取 '+data.retrievedAt;
+ $('notice').textContent=data.status+'。指数和具体报价分别展示；本页未独立核验各厂商结算价或实际可用库存。'+(data.lastError?' '+data.lastError:'');
+ $('quote-asof').textContent='FUNDA 快照截至 '+data.pricesThrough+' · 点击行查看已有记录';
+ const availableGapGpus = gpus.filter(gpu => data.spot.some(series => series.gpu === gpu));
+ const previousGapGpu = $('gap-gpu').value || 'H100';
+ options($('gap-gpu'), availableGapGpus);
+ if (availableGapGpus.includes(previousGapGpu)) $('gap-gpu').value = previousGapGpu;
+ if (first) options($('quote-gpu'), gpus, true);
+ page = Math.min(page, Math.max(0, Math.ceil(filteredQuotes().length / 80) - 1));
+ if (selectedQuote) {
+  selectedQuote = data.quotes.find(row =>
+   ['vendor', 'gpu', 'lease', 'term', 'region', 'sku', 'derived'].every(key => row[key] === selectedQuote[key])
+  ) ?? null;
+ }
+ const sourceRows = data.sources.map(source => {
+  const row = document.createElement('p');
+  const link = document.createElement('a');
+  const url = new URL(source.url);
+  if (url.protocol === 'https:') link.href = url.href;
+  link.target = '_blank';
+  link.rel = 'noopener noreferrer';
+  link.textContent = source.dataset;
+  row.append(link, ' · 源生成 ' + source.producedAt + ' · 版本 ' + source.version);
+  return row;
+ });
+ $('sources').replaceChildren(...sourceRows);
+ refresh();
+}
+function schedulePoll() {
+ clearTimeout(nextPoll);
+ if (!document.hidden) nextPoll = setTimeout(poll, 5000);
+}
+async function poll() {
+ if (pollInFlight || document.hidden) return;
+ pollInFlight = true;
+ const controller = new AbortController();
+ const timeout = setTimeout(() => controller.abort(), 8000);
+ try {
+  const headers = snapshotTag ? {'If-None-Match': snapshotTag} : {};
+  const response = await fetch('/api/gpu', {headers, cache: 'no-store', signal: controller.signal});
+  if (response.status !== 304) {
+   if (!response.ok) throw new Error('Snapshot unavailable');
+   applySnapshot(await response.json());
+   snapshotTag = response.headers.get('ETag');
+  }
+  $('live-status').textContent = '';
+ } catch {
+  $('live-status').textContent = data
+   ? '暂时无法检查更新，正在显示最近成功读取的数据。'
+   : '暂时无法读取采集结果，页面会自动重试。';
+ } finally {
+  clearTimeout(timeout);
+  pollInFlight = false;
+  schedulePoll();
+ }
+}
+if (liveView) {
+ $('pages-entry').hidden = true;
+ $('live-view').hidden = false;
+ if (initialSnapshot) {
+  applySnapshot(initialSnapshot);
+  $('live-status').textContent = '刷新页面可载入服务器最近生成的快照。';
+ } else {
+  document.addEventListener('visibilitychange', () => {
+   clearTimeout(nextPoll);
+   if (!document.hidden) poll();
+  });
+  poll();
+ }
+}
+</script></body></html>
